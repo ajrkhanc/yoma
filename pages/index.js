@@ -77,6 +77,7 @@ export default function Home() {
       <>
          <Head>
             <title>Best HR Outsourcing Company in India - Yoma Business Solution</title>
+            <meta name="title" content="Best HR Outsourcing Company in India - Yoma Business Solution"></meta>
             <meta name="keywords" content="hr outsourcing company in india, hr outsourcing services in india, best hr solutions company, best staffing companies in india, hr outsourcing company, hr  outsourcing services" />
             <meta name="description" content="Yoma is the best HR outsourcing company in India that help organizations to grow in an easier way. We help you with staff management, Payroll, Compliance,  etc. Enquire now." />
             <meta name="Classification" content="hr outsourcing services" />
