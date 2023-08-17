@@ -76,8 +76,7 @@ export default function Home() {
    return (
       <>
          <Head>
-            <title>Best HR Outsourcing Company in India - Yoma Business Solution</title>
-            <meta name="title" content="Best HR Outsourcing Company in India - Yoma Business Solution"></meta>
+            <title>Best HR Outsourcing Company in India - Yoma Business Solution</title>            
             <meta name="keywords" content="hr outsourcing company in india, hr outsourcing services in india, best hr solutions company, best staffing companies in india, hr outsourcing company, hr  outsourcing services" />
             <meta name="description" content="Yoma is the best HR outsourcing company in India that help organizations to grow in an easier way. We help you with staff management, Payroll, Compliance,  etc. Enquire now." />
             <meta name="Classification" content="hr outsourcing services" />
@@ -98,7 +97,6 @@ export default function Home() {
             <meta name="twitter:description" content="Yoma is the best HR outsourcing company in India that help organizations to grow in an easier way. We help you with staff management, Payroll,   Compliance, etc. Enquire now." />
             <meta name="twitter:image:src" content="https://yomabusinesssolutions.com/assets/img/logo/yoma-logo.png" />
             <meta name="twitter:domain" content="https://yomabusinesssolutions.com/" />
-
             <script
             dangerouslySetInnerHTML={{
               __html: `
