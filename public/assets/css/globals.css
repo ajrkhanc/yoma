@@ -248,3 +248,25 @@
 .bloglinkh ul{
   padding-left: 20px;
 }
+.logoc{
+  padding: 10px;
+}
+.logoc img{
+  width: 100%;
+  margin: auto;
+  border-radius: 70px;
+  border: 5px solid #e0e0e0;
+}
+
+.bgcccf{
+  background: #f0f0f0;
+}
+
+.h3cc{
+  color: #2e68b0;
+  font-size: 28px;
+}
+
+.cclm{
+  min-height: 459px;
+}

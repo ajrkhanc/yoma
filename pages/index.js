@@ -73,11 +73,49 @@ export default function Home() {
       autoplaySpeed: 3000,
    };
 
+   var logos = {
+      dots: true,
+      arrows: false,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 5,
+      slidesToScroll: 5,
+      initialSlide: 0,
+      autoplay: false,
+      autoplaySpeed: 3000,
+      responsive: [
+         {
+            breakpoint: 1024,
+            settings: {
+               slidesToShow: 3,
+               slidesToScroll: 3,
+               infinite: true,
+               dots: true
+            }
+         },
+         {
+            breakpoint: 600,
+            settings: {
+               slidesToShow: 2,
+               slidesToScroll: 2,
+               initialSlide: 2
+            }
+         },
+         {
+            breakpoint: 480,
+            settings: {
+               slidesToShow: 2,
+               slidesToScroll: 2
+            }
+         }
+      ]
+   };
+
    return (
       <>
          <Head>
-            <title>Best HR Outsourcing Company in India - Yoma Business Solution</title>            
-            <meta name="keywords" content="hr outsourcing company in india, hr outsourcing services in india, best hr solutions company, best staffing companies in india, hr outsourcing company, hr  outsourcing services" />
+            <title>Best HR Outsourcing Company in India - Yoma Business Solution</title>
+            <meta name="keywords" content="hr outsourcing services, hr outsourcing company, best hr outsourcing company, best hr solutions company" />
             <meta name="description" content="Yoma is the best HR outsourcing company in India that help organizations to grow in an easier way. We help you with staff management, Payroll, Compliance,  etc. Enquire now." />
             <meta name="Classification" content="hr outsourcing services" />
             <meta property="og:locale" content="en_us" />
@@ -98,8 +136,8 @@ export default function Home() {
             <meta name="twitter:image:src" content="https://yomabusinesssolutions.com/assets/img/logo/yoma-logo.png" />
             <meta name="twitter:domain" content="https://yomabusinesssolutions.com/" />
             <script
-            dangerouslySetInnerHTML={{
-              __html: `
+               dangerouslySetInnerHTML={{
+                  __html: `
               {
                "@context": "https://schema.org",
                "@type": "SiteNavigationElement",
@@ -155,12 +193,12 @@ export default function Home() {
            }
            
           `,
-            }}
-          />
+               }}
+            />
 
-<script
-            dangerouslySetInnerHTML={{
-              __html: `
+            <script
+               dangerouslySetInnerHTML={{
+                  __html: `
               {
                "@context": "https://schema.org",
                "@type": "WebSite",
@@ -182,12 +220,12 @@ export default function Home() {
            }
            
           `,
-            }}
-          />
+               }}
+            />
 
-<script
-            dangerouslySetInnerHTML={{
-              __html: `
+            <script
+               dangerouslySetInnerHTML={{
+                  __html: `
               {
                "@context": "https://schema.org",
                "@type": "LocalBusiness",
@@ -206,12 +244,12 @@ export default function Home() {
            }
            
           `,
-            }}
-          />
+               }}
+            />
 
-<script
-            dangerouslySetInnerHTML={{
-              __html: `
+            <script
+               dangerouslySetInnerHTML={{
+                  __html: `
               {
                "@context": "https://schema.org",
                "@type": "Organization",
@@ -235,16 +273,16 @@ export default function Home() {
            }
            
           `,
-            }}
-          />
+               }}
+            />
 
-<script
-            dangerouslySetInnerHTML={{
-              __html: `
+            <script
+               dangerouslySetInnerHTML={{
+                  __html: `
               {"@context":"https://schema.org/","@type":"CreativeWorkSeries","name":"Best HR Outsourcing Company in India","aggregateRating":{"@type":"AggregateRating","ratingValue":"3.9","bestRating":"5","ratingCount":"177"}}
           `,
-            }}
-          />
+               }}
+            />
 
          </Head>
 
@@ -262,12 +300,102 @@ export default function Home() {
             </Slider>
          </section>
 
+         <section className="about-section pt-50 pb-20">
+            <div className="container">
+               <div className="row align-items-center">
+                  <div className="col-lg-6">
+                     <div className="wow fadeInLeft delay-0-2s animated animateleft">
+                        <img src="/assets/img/indac.jpg" alt="About" />
+                     </div>
+                  </div>
+                  <div className="col-lg-6">
+                     <div className="about-content wow fadeInRight delay-0-2s animated animateright">
+                        <div className="section-title">
+                           <h2 className="mainh1"><span>India’s</span> Best HR Outsourcing Company</h2>
+                        </div>
+                        <p className="text-justify">
+                           We have been the best HR outsourcing company for the past 2 decades and we have been assisting companies reach new heights with our services that include Staffing solutions and Employee management!
+                        </p>
+
+                        <p className="text-justify">
+                           We possess the dexterity to provide you with the best HR outsourcing services that will help your company reach the apex!
+                        </p>
+                        <p>
+                           Now you can sit back and relax while we assist your staff starting with seamless onboarding to informative exit interviews. Because we stand out as the Best HR solutions company.
+                        </p>
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+
+
+         <section className="featured-section bgs-cover pt-60 pb-70 bgcccf">
+            <div className="container">
+               <div className="row justify-content-center">
+                  <div className="col-lg-6 col-md-8 col-sm-10">
+                     <div className="section-title text-center mb-35">
+                        <h2 className="mainh1"><span>Who</span> we Work with</h2>
+                     </div>
+                  </div>
+               </div>
+               <div className="row align-items-center">
+                  <div className="col-sm-12">
+                     <Slider {...logos}>
+                        <div className="logoc wow fadeInUp delay-0-2s">
+                           <img src="/assets/img/logo/hml/DABUR.png" />
+                        </div>
+                        <div className="logoc wow fadeInUp delay-0-2s">
+                           <img src="/assets/img/logo/hml/ITC.png" />
+                        </div>
+                        <div className="logoc wow fadeInUp delay-0-2s">
+                           <img src="/assets/img/logo/hml/LAKME.png" />
+                        </div>
+                        <div className="logoc wow fadeInUp delay-0-2s">
+                           <img src="/assets/img/logo/hml/PAYTM.png" />
+                        </div>
+                        <div className="logoc wow fadeInUp delay-0-2s">
+                           <img src="/assets/img/logo/hml/SWIGGY.png" />
+                        </div>
+                        <div className="logoc wow fadeInUp delay-0-2s">
+                           <img src="/assets/img/logo/hml/ZOMATO.png" />
+                        </div>
+                     </Slider>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section className="about-section pt-50 pb-20">
+            <div className="container">
+               <div className="row align-items-center">
+                  <div className="col-lg-6">
+                     <div className="wow fadeInLeft delay-0-2s animated animateleft">
+                        <img src="/assets/img/37216.jpg" alt="About" />
+                     </div>
+                  </div>
+                  <div className="col-lg-6">
+                     <div className="about-content wow fadeInRight delay-0-2s animated animateright">
+                        <div className="section-title">
+                           <h2 className="mainh1"><span>We Help</span> You Run Your Business Efficiently</h2>
+                        </div>
+                        <p className="text-justify">
+                        Are you ready to sit back and give all your HR related stress to us? Now focus on strategy making and reaching to the apex while we give seamless employee management, Payroll management and much more! Or you are a growing company with no experience in HR resources? Find yourself the best strategic relationship of an experienced HR partners. Yoma Staffing Solutions is here give you easy HR solutions where we are with you and your employees from onboarding to exit!
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
          <section className="featured-section bgs-cover pt-40 homeservicebg">
             <div className="container">
                <div className="row justify-content-center">
                   <div className="col-lg-6 col-md-8 col-sm-10">
                      <div className="section-title text-center mb-35">
-                        <h2 className="mainh1"><span>OUR</span> SOLUTIONS</h2>
+                        <h2 className="mainh1"><span>Our</span> HR Solutions</h2>
                      </div>
                   </div>
                </div>
@@ -278,8 +406,8 @@ export default function Home() {
                            <img src="/assets/img/icon/general-staffing.png" />
                         </div>
                         <div className="feature-content">
-                           <h5>General Staffing</h5>
-                           <p>We provide scalability in operating a larger volume of temporary staffing businesses and help clients have visibility of the workflows...</p>
+                           <h4>General Staffing</h4>
+                           <p>With the General Staffing solution, we offer the ability to efficiently expand temporary staffing operations on a larger scale while granting clients clear...</p>
                            <a href="/general-staffing" className="learn-more">Read More <i className="fas fa-arrow-right"></i></a>
                         </div>
                      </div>
@@ -290,8 +418,8 @@ export default function Home() {
                            <img src="/assets/img/icon/industrial-staffing.png" />
                         </div>
                         <div className="feature-content">
-                           <h5>Industrial Staffing</h5>
-                           <p>We have expertise in hiring reliable and experienced laborers for all kinds of industries and dynamic requirements.</p>
+                           <h4>Industrial Staffing</h4>
+                           <p>Do you need Technical Staff, Specialized workforce or just unskilled labour force? We got your back with our easy staffing solutions...</p>
                            <a href="/industrial-staffing" className="learn-more">Read More <i className="fas fa-arrow-right"></i></a>
                         </div>
                      </div>
@@ -302,8 +430,8 @@ export default function Home() {
                            <img src="/assets/img/icon/staff-augmentation.png" />
                         </div>
                         <div className="feature-content">
-                           <h5>Staff Augmentation</h5>
-                           <p>We work on a sanctioned fixed budget finalized for the project and outsourced employees and provide screened manpower within the desired budgets.</p>
+                           <h4>Staff Augmentation</h4>
+                           <p>Operating within a sanctioned fixed budget for the project and outsourced personnel, we ensure the delivery of meticulously screened manpower...</p>
                            <a href="/staff-augmentation" className="learn-more">Read More <i className="fas fa-arrow-right"></i></a>
                         </div>
                      </div>
@@ -314,8 +442,8 @@ export default function Home() {
                            <img src="/assets/img/icon/manage-services.png" />
                         </div>
                         <div className="feature-content">
-                           <h5>Managed Services</h5>
-                           <p>We simplify the highly complex functions of staffing, technology-driven employee management, and payments process in a single click.</p>
+                           <h4>Managed Services</h4>
+                           <p>We are committed to providing you and your employees with the best HR experience and thus we assist your company with Managed Services...</p>
                            <a href="/managed-services" className="learn-more">Read More <i className="fas fa-arrow-right"></i></a>
                         </div>
                      </div>
@@ -326,8 +454,8 @@ export default function Home() {
                            <img src="/assets/img/icon/shared-resource-program.png" />
                         </div>
                         <div className="feature-content">
-                           <h5>Shared Resource Program</h5>
-                           <p>With a shared resources model, we enable companies to deploy more resources within their budget and target larger areas.</p>
+                           <h4>Shared Resource Program</h4>
+                           <p>With our Shared Resources Program we evaluate feasibility with clarity, design future processes meticulously, and ensure seamless integration...</p>
                            <a href="/shared-resources-program" className="learn-more">Read More <i className="fas fa-arrow-right"></i></a>
                         </div>
                      </div>
@@ -338,8 +466,8 @@ export default function Home() {
                            <img src="/assets/img/icon/apprenticeship-program.png" />
                         </div>
                         <div className="feature-content">
-                           <h5>Apprenticeship Program (NAPS)</h5>
-                           <p>We support the Indian government’s National Apprenticeship Promotion Scheme (NAPS), including all the endeavors like…</p>
+                           <h4>Apprenticeship Program (NAPS)</h4>
+                           <p>We as a country are one of the youngest nations, where 62% of the population is working age. We, as a HR outsourcing company, believe in training them...</p>
                            <a href="/apprenticeship-program" className="learn-more">Read More <i className="fas fa-arrow-right"></i></a>
                         </div>
                      </div>
@@ -359,11 +487,11 @@ export default function Home() {
                      <div className="col-lg-6 align-self-end">
                         <div className="about-content pt-75 rpt-20 pr-70 rpr-0 wow fadeInRight delay-0-2s animated animateright">
                            <div className="section-title mb-35">
-                              <h2 className="mainh1"><span>Who</span> Are We</h2>
+                              <h2 className="mainh1"><span></span>Get to Know the Best HR Solution Company!</h2>
                            </div>
-                           <p>Founded on an innovative idea that every small or large-scaled business should run like a fortune 500 company, we introduced technology-driven HR services that work with clients all the way</p>
-                           <p>With an industry-leading suite of <strong>HR outsourcing services</strong> that are backed by cutting-edge technology, we provide one-stop-solution to the following-</p>
-                           <p>We can fulfill your need for <strong>third-party payroll companies</strong> with ease. Due to our seamless and exceptional services, we rank amongst the top <strong>payroll software companies</strong> in India.</p>
+                           <p>Born from an innovative notion that businesses of all sizes deserve the prowess of Fortune 500 giants, we've harnessed tech-powered HR services to walk hand in hand with our clients. With a cutting-edge suite of HR outsourcing solutions, we present a comprehensive answer to the following:</p>
+                           <p>Effortlessly meeting your demand for third-party payroll solutions, we proudly stand among India's elite payroll software companies, thanks to our seamless and exceptional offerings-</p>
+                           
                            <ul className="list-style-three mt-15">
                               <li>Leaders of end-to-end employee management in India</li>
                               <li>The only company in india to offer tech-based staffing and managed solutions</li>
@@ -379,7 +507,11 @@ export default function Home() {
          <section className="cournter-section-three bg-lighter text-center pt-65 rpt-95 pb-70 rpb-50">
             <div className="container">
                <div className="section-title mb-55">
-                  <h2 className="mainh1">OUR <span>STRENGTHS</span></h2>
+                  <h3 className='h3cc'>Why Choose Us as Your Hiring Partner?</h3>
+                  <p>
+                  Ranked amongst the Top-payroll Software companies in India, we can ease your HR related stress with dexterity! Now you can sit back and relax while we give you a seamless HR experience. - End-to-end employee management -Tech Based Staffing and managed solutions to maintain authenticity and accuracy in data -HR outsourcing services along-with cutting edge technology to assist you with the best
+                  </p>
+                  {/* <h2 className="mainh1">OUR <span>STRENGTHS</span></h2> */}
                </div>
                <div className="row">
                   <div className="col-lg-3 col-sm-6">
@@ -410,8 +542,8 @@ export default function Home() {
                <div className="testimonial-wrap1 row">
 
                   <div className="wow fadeInLeft delay-0-2s col-sm-4">
-                     <div className="testimonial-item mpaj">
-                        <h3 className="h3themecolor">Clients speak</h3>
+                     <div className="testimonial-item mpaj cclm">
+                        <h3 className="h3themecolor">Our Prime Motivators!</h3>
                         <div className="testimonial-two-active">
                            <Slider {...settings1}>
                               <div>
@@ -453,7 +585,7 @@ export default function Home() {
                   </div>
 
                   <div className="wow fadeInLeft delay-0-2s col-sm-4">
-                     <div className="testimonial-item mpaj">
+                     <div className="testimonial-item mpaj cclm">
                         <h3 className="h3themecolor">Associates speak</h3>
                         <div className="testimonial-two-active">
                            <Slider {...settings2}>
@@ -485,7 +617,7 @@ export default function Home() {
                   </div>
 
                   <div className="wow fadeInLeft delay-0-2s col-sm-4">
-                     <div className="testimonial-item mpaj">
+                     <div className="testimonial-item mpaj cclm">
                         <h3 className="h3themecolor">Success story</h3>
                         <div className="testimonial-two-active">
                            <div className="testimonial-two-item">
@@ -514,7 +646,7 @@ export default function Home() {
                      <div className="col-lg-7">
                         <div className="contact-section-form px-15 rpx-0 rmb-50 wow fadeInLeft delay-0-2s animated animateleft">
                            <div className="section-title mb-20">
-                              <h2>REQUEST A CALL BACK</h2>
+                              <h3>Book Your Free HR Consultation</h3>
                            </div>
 
                            <form id="contactForm" className="contact-form" onSubmit={registerUser}>
@@ -522,19 +654,19 @@ export default function Home() {
                                  <div className="col-sm-6">
                                     <div className="form-group">
                                        <label htmlFor="name">Your Name</label>
-                                       <input type="text" id="name" name="name" className="form-control" placeholder="Name*" required="" />
+                                       <input type="text" id="name" name="name" className="form-control" placeholder="Name*" required/>
                                     </div>
                                  </div>
                                  <div className="col-sm-6">
                                     <div className="form-group">
                                        <label htmlFor="email">Your email address</label>
-                                       <input type="email" id="email" name="email" className="form-control" placeholder="Work Email/Email*" required="" />
+                                       <input type="email" id="email" name="email" className="form-control" placeholder="Work Email/Email*" required/>
                                     </div>
                                  </div>
                                  <div className="col-sm-6">
                                     <div className="form-group">
                                        <label htmlFor="number">Phone No.</label>
-                                       <input type="text" id="number" name="number" className="form-control" placeholder="Phone No.*" required="" />
+                                       <input type="text" id="number" name="number" className="form-control" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required/>
                                     </div>
                                  </div>
                                  <div className="col-sm-6">
