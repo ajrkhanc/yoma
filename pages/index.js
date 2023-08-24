@@ -487,7 +487,7 @@ export default function Home() {
                      <div className="col-lg-6 align-self-end">
                         <div className="about-content pt-75 rpt-20 pr-70 rpr-0 wow fadeInRight delay-0-2s animated animateright">
                            <div className="section-title mb-35">
-                              <h2 className="mainh1"><span></span>Get to Know the Best HR Solution Company!</h2>
+                              <h2 className="mainh1">Get to Know the <span>Best HR Solution Company</span></h2>
                            </div>
                            <p>Born from an innovative notion that businesses of all sizes deserve the prowess of Fortune 500 giants, we've harnessed tech-powered HR services to walk hand in hand with our clients. With a cutting-edge suite of HR outsourcing solutions, we present a comprehensive answer to the following:</p>
                            <p>Effortlessly meeting your demand for third-party payroll solutions, we proudly stand among India's elite payroll software companies, thanks to our seamless and exceptional offerings-</p>
