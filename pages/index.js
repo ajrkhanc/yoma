@@ -50,7 +50,7 @@ export default function Home() {
    };
 
    var settings1 = {
-      dots: true,
+      dots: false,
       arrows: false,
       infinite: true,
       speed: 500,
@@ -62,7 +62,7 @@ export default function Home() {
    };
 
    var settings2 = {
-      dots: true,
+      dots: false,
       arrows: false,
       infinite: true,
       speed: 500,
@@ -408,7 +408,7 @@ export default function Home() {
                   <div className="col-xl-4 col-md-6">
                      <div className="feature-item wow fadeInUp delay-0-2s">
                         <div className="icon">
-                           <img src="/assets/img/icon/general-staffing.png" />
+                           <img src="/assets/img/icon/general-staffing.png" alt='General Staffing'/>
                         </div>
                         <div className="feature-content">
                            <h4>General Staffing</h4>
@@ -420,7 +420,7 @@ export default function Home() {
                   <div className="col-xl-4 col-md-6">
                      <div className="feature-item wow fadeInUp delay-0-4s">
                         <div className="icon">
-                           <img src="/assets/img/icon/industrial-staffing.png" />
+                           <img src="/assets/img/icon/industrial-staffing.png" alt='Industrial Staffing'/>
                         </div>
                         <div className="feature-content">
                            <h4>Industrial Staffing</h4>
@@ -432,7 +432,7 @@ export default function Home() {
                   <div className="col-xl-4 col-md-6">
                      <div className="feature-item wow fadeInUp delay-0-6s">
                         <div className="icon">
-                           <img src="/assets/img/icon/staff-augmentation.png" />
+                           <img src="/assets/img/icon/staff-augmentation.png" alt='Staff Augmentation'/>
                         </div>
                         <div className="feature-content">
                            <h4>Staff Augmentation</h4>
@@ -444,7 +444,7 @@ export default function Home() {
                   <div className="col-xl-4 col-md-6">
                      <div className="feature-item wow fadeInUp delay-0-8s">
                         <div className="icon">
-                           <img src="/assets/img/icon/manage-services.png" />
+                           <img src="/assets/img/icon/manage-services.png" alt='Managed Services'/>
                         </div>
                         <div className="feature-content">
                            <h4>Managed Services</h4>
@@ -456,7 +456,7 @@ export default function Home() {
                   <div className="col-xl-4 col-md-6">
                      <div className="feature-item wow fadeInUp delay-1-0s">
                         <div className="icon">
-                           <img src="/assets/img/icon/shared-resource-program.png" />
+                           <img src="/assets/img/icon/shared-resource-program.png" alt='Shared Resource Program'/>
                         </div>
                         <div className="feature-content">
                            <h4>Shared Resource Program</h4>
@@ -468,7 +468,7 @@ export default function Home() {
                   <div className="col-xl-4 col-md-6">
                      <div className="feature-item wow fadeInUp delay-1-2s">
                         <div className="icon">
-                           <img src="/assets/img/icon/apprenticeship-program.png" />
+                           <img src="/assets/img/icon/apprenticeship-program.png" alt='Apprenticeship Program (NAPS)'/>
                         </div>
                         <div className="feature-content">
                            <h4>Apprenticeship Program (NAPS)</h4>
