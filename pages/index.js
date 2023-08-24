@@ -305,13 +305,14 @@ export default function Home() {
                <div className="row align-items-center">
                   <div className="col-lg-6">
                      <div className="wow fadeInLeft delay-0-2s animated animateleft">
-                        <img src="/assets/img/indac.jpg" alt="About" />
+                        <img src="/assets/img/indac.jpg" alt="hr outsourcing services" />
                      </div>
                   </div>
                   <div className="col-lg-6">
                      <div className="about-content wow fadeInRight delay-0-2s animated animateright">
                         <div className="section-title">
-                           <h2 className="mainh1"><span>India’s</span> Best HR Outsourcing Company</h2>
+                           <p className='mainh1 font36c'>Welcome to The Yoma Business Solutions</p>
+                           <h1 className="mainh1 font28c"><span>India’s</span> Best HR Outsourcing Company</h1>
                         </div>
                         <p className="text-justify">
                            We have been the best HR outsourcing company for the past 2 decades and we have been assisting companies reach new heights with our services that include Staffing solutions and Employee management!
@@ -332,9 +333,10 @@ export default function Home() {
 
 
 
-         <section className="featured-section bgs-cover pt-60 pb-70 bgcccf">
+         <section className="featured-section bgs-cover pt-20 pb-10 ">
             <div className="container">
                <div className="row justify-content-center">
+                  <div className='col-sm-12'><hr></hr></div>
                   <div className="col-lg-6 col-md-8 col-sm-10">
                      <div className="section-title text-center mb-35">
                         <h2 className="mainh1"><span>Who</span> we Work with</h2>
@@ -343,26 +345,29 @@ export default function Home() {
                </div>
                <div className="row align-items-center">
                   <div className="col-sm-12">
+                     
                      <Slider {...logos}>
                         <div className="logoc wow fadeInUp delay-0-2s">
-                           <img src="/assets/img/logo/hml/DABUR.png" />
+                           <img src="/assets/img/logo/hml/DABUR.png" alt='DABUR'/>
                         </div>
                         <div className="logoc wow fadeInUp delay-0-2s">
-                           <img src="/assets/img/logo/hml/ITC.png" />
+                           <img src="/assets/img/logo/hml/ITC.png" alt='ITC'/>
                         </div>
                         <div className="logoc wow fadeInUp delay-0-2s">
-                           <img src="/assets/img/logo/hml/LAKME.png" />
+                           <img src="/assets/img/logo/hml/LAKME.png" alt='LAKME'/>
                         </div>
                         <div className="logoc wow fadeInUp delay-0-2s">
-                           <img src="/assets/img/logo/hml/PAYTM.png" />
+                           <img src="/assets/img/logo/hml/PAYTM.png" alt='PAYTM'/>
                         </div>
                         <div className="logoc wow fadeInUp delay-0-2s">
-                           <img src="/assets/img/logo/hml/SWIGGY.png" />
+                           <img src="/assets/img/logo/hml/SWIGGY.png" alt='SWIGGY'/>
                         </div>
                         <div className="logoc wow fadeInUp delay-0-2s">
-                           <img src="/assets/img/logo/hml/ZOMATO.png" />
+                           <img src="/assets/img/logo/hml/ZOMATO.png" alt='ZOMATO'/>
                         </div>
                      </Slider>
+                     <br></br>
+                     <hr></hr>
                   </div>
                </div>
             </div>
@@ -373,7 +378,7 @@ export default function Home() {
                <div className="row align-items-center">
                   <div className="col-lg-6">
                      <div className="wow fadeInLeft delay-0-2s animated animateleft">
-                        <img src="/assets/img/37216.jpg" alt="About" />
+                        <img src="/assets/img/37216.jpg" alt="hr outsourcing company" />
                      </div>
                   </div>
                   <div className="col-lg-6">
@@ -487,7 +492,7 @@ export default function Home() {
                      <div className="col-lg-6 align-self-end">
                         <div className="about-content pt-75 rpt-20 pr-70 rpr-0 wow fadeInRight delay-0-2s animated animateright">
                            <div className="section-title mb-35">
-                              <h2 className="mainh1">Get to Know the <span>Best HR Solution Company</span></h2>
+                              <h2 className="mainh1"><span>Get to Know the</span> Best HR Solution Company</h2>
                            </div>
                            <p>Born from an innovative notion that businesses of all sizes deserve the prowess of Fortune 500 giants, we've harnessed tech-powered HR services to walk hand in hand with our clients. With a cutting-edge suite of HR outsourcing solutions, we present a comprehensive answer to the following:</p>
                            <p>Effortlessly meeting your demand for third-party payroll solutions, we proudly stand among India's elite payroll software companies, thanks to our seamless and exceptional offerings-</p>
@@ -507,7 +512,7 @@ export default function Home() {
          <section className="cournter-section-three bg-lighter text-center pt-65 rpt-95 pb-70 rpb-50">
             <div className="container">
                <div className="section-title mb-55">
-                  <h3 className='h3cc'>Why Choose Us as Your Hiring Partner?</h3>
+                  <h3 className='h3cc mainh1'><span>Why Choose Us as</span> Your Hiring Partner?</h3>
                   <p>
                   Ranked amongst the Top-payroll Software companies in India, we can ease your HR related stress with dexterity! Now you can sit back and relax while we give you a seamless HR experience. - End-to-end employee management -Tech Based Staffing and managed solutions to maintain authenticity and accuracy in data -HR outsourcing services along-with cutting edge technology to assist you with the best
                   </p>
@@ -540,10 +545,13 @@ export default function Home() {
                   </div>
                </div>
                <div className="testimonial-wrap1 row">
+                  <div className='col-sm-12'>
+                  <h3 className='h3cc mainh1'><span>Our</span> Prime Motivators!</h3>
+                  </div>
 
                   <div className="wow fadeInLeft delay-0-2s col-sm-4">
                      <div className="testimonial-item mpaj cclm">
-                        <h3 className="h3themecolor">Our Prime Motivators!</h3>
+                        <h3 className="h3themecolor">Client speak</h3>
                         <div className="testimonial-two-active">
                            <Slider {...settings1}>
                               <div>
@@ -552,7 +560,7 @@ export default function Home() {
                                        <h5>Deepak Chauhan</h5>
                                        <span>Halonix Technologies Pvt.Ltd. (Human Resources)</span>
                                     </div>
-                                    <i className="fas fa-quote-right"></i>
+                                    {/* <i className="fas fa-quote-right"></i> */}
                                  </div>
                                  <p>We want you to know that we are very pleased with the quality of service your company provides and appreciate the constant support. We sincerely appreciate your responsiveness and the way you conduct business. We look forward to a successful working relationship with you.</p>
                               </div>
@@ -563,7 +571,7 @@ export default function Home() {
                                        <h5>Varun Kaushik</h5>
                                        <span>Livepure (Manager - Key Accounts)</span>
                                     </div>
-                                    <i className="fas fa-quote-right"></i>
+                                    {/* <i className="fas fa-quote-right"></i> */}
                                  </div>
                                  <p>We really appreciate all of your support in the process of managing the off-role manpower for MT- Livpure. You’ve been right there, helping out wherever and whenever needed for these past few months. I am very appreciative of your assistance and am looking forward to continuing to work together.</p>
                               </div>
@@ -574,7 +582,7 @@ export default function Home() {
                                        <h5>Rahul Jha</h5>
                                        <span>WaterAid India (Program Coordinator)</span>
                                     </div>
-                                    <i className="fas fa-quote-right"></i>
+                                    {/* <i className="fas fa-quote-right"></i> */}
                                  </div>
                                  <p>YOMA has been an excellent aid for our recruitment needs. Brilliant communication and strong talent are the hallmarks of the service that they provide, and it is a pleasure to have such an asset available to us. I appreciate their quick response, efficiency, and prompt follow-up to my requests.</p>
                               </div>
@@ -596,7 +604,7 @@ export default function Home() {
                                        <h5>Surendra Kumar</h5>
                                        <span>Halonix Technologies Pvt. Ltd.</span>
                                     </div>
-                                    <i className="fas fa-quote-right"></i>
+                                    {/* <i className="fas fa-quote-right"></i> */}
                                  </div>
                                  <p>I am Surendra Kumar working in Halonix Technologies Pvt. Ltd through YOMA. I have been associated with YOMA since April 2018. My experience of working with YOMA has been good. Through YOMA's Proanto app, I get my payslip every month easily. I would like to be in connection with YOMA in the future as well.</p>
                               </div>
@@ -607,7 +615,7 @@ export default function Home() {
                                        <h5>Harpreet Singh</h5>
                                        <span>Halonix technologies Pvt. Ltd.</span>
                                     </div>
-                                    <i className="fas fa-quote-right"></i>
+                                    {/* <i className="fas fa-quote-right"></i> */}
                                  </div>
                                  <p>I am Harpreet Singh working in Halonix Technologies Pvt. Ltd through YOMA Business. I have been associated with YOMA since 2018. My experience with YOMA has been great. I do not face any problem as they resolve it at the right time. I would like to remain connected with YOMA in the coming times.</p>
                               </div>
@@ -625,7 +633,7 @@ export default function Home() {
                                  <div className="designation">
                                     <h5>FMCG industry</h5>
                                  </div>
-                                 <i className="fas fa-quote-right"></i>
+                                 {/* <i className="fas fa-quote-right"></i> */}
                               </div>
                               <p>One of the leading cosmetic brands was facing a high attrition rate in a project. They were facing problems such as decreased productivity, declining profits, increased expense and so on.</p>
                               <p>We helped them identify the concerned areas of the SSRs and the working model. We proposed them the complete managed services which resulted in higher productivity, 15% reduction in attrition rates and more.</p>
@@ -666,7 +674,7 @@ export default function Home() {
                                  <div className="col-sm-6">
                                     <div className="form-group">
                                        <label htmlFor="number">Phone No.</label>
-                                       <input type="text" id="number" name="number" className="form-control" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required/>
+                                       <input type="number" id="number" name="number" className="form-control" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required/>
                                     </div>
                                  </div>
                                  <div className="col-sm-6">
