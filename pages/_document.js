@@ -30,15 +30,11 @@ class MyDocument extends Document {
           <meta name="google-site-verification" content="NLt2fLY-Zv4a3CTFZkpB45Mag6Muyi-aKAfBhzjAGKU" />
 
           {/* Global site tag (gtag.js) - Google Analytics */}
-          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-29994810-1"></script>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-S0VDCRT65M"></script>
           <script
             dangerouslySetInnerHTML={{
               __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-
-              gtag('config', 'UA-29994810-1');
+              window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-S0VDCRT65M');
           `,
             }}
           />
@@ -56,32 +52,9 @@ class MyDocument extends Document {
             }}
           />
 
-          {/* Global site tag (gtag.js) - Google Ads: 369687005 */}
-          <script async src="https://www.googletagmanager.com/gtag/js?id=AW-369687005"></script>
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
+         
 
-              gtag('config', 'AW-369687005');
-          `,
-            }}
-          />
-
-          {/* <!-- Google tag (gtag.js) --> */}
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-YXKPZH4LLZ"></script>
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-              window.dataLayer = window.dataLayer || [];
-               function gtag(){dataLayer.push(arguments);}
-               gtag('js', new Date());
-               gtag('config', 'G-YXKPZH4LLZ');
-          `,
-            }}
-          />
+       
 
           <script type="text/javascript" src="https://web-in21.mxradon.com/t/Tracker.js"></script>
           <script type="text/javascript">
