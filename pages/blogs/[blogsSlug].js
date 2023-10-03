@@ -111,7 +111,7 @@ export default function singleblog({ posts, posts5, cats, postfeedback }) {
                 <meta name="keywords" content={posts.Keywords}/>
                 <meta name="description" content={posts.Description}/>
                 <link rel="icon" href="/favicon.png" />
-
+                <link rel="canonical" href={"https://blog.yomabusinesssolutions.com/"+posts.posturl} />
                 {/* Twitter */}
                 <meta name="twitter:card" content="summary" />
                 <meta name="twitter:site" content="@YomaSolutions" />
