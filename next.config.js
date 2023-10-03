@@ -24,7 +24,7 @@ module.exports = {
     },
     {
       source: '/blogs/reengineering-the-recruitment-process',
-      destination: 'https://blog.yomabusinesssolutions.com/reengineering-the-recruitment-process',
+      destination: 'https://blog.yomabusinesssolutions.com/re-engineering-the-recruitment-process/',
       permanent: true,
     },
     {
