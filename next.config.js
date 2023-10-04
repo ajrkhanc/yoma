@@ -67,6 +67,56 @@ module.exports = {
       destination: 'https://blog.yomabusinesssolutions.com/quick-guide-to-an-effective-recruitment-process',
       permanent: true,
     },
+
+
+
+    {
+      source: '/blogs/temporary-staffing-agencies-and-its-growing-demand',
+      destination: 'https://blog.yomabusinesssolutions.com/temporary-staffing-agencies-and-its-growing-demand',
+      permanent: true,
+    },
+
+    {
+      source: '/blogs/understanding-hr-outsourcing-and-how-it-can-help-to-increase-efficiency',
+      destination: 'https://blog.yomabusinesssolutions.com/understanding-hr-outsourcing-and-how-it-can-help-to-increase-efficiency',
+      permanent: true,
+    },
+
+    {
+      source: '/blogs/payroll-management-and-its-importance-for-employees',
+      destination: 'https://blog.yomabusinesssolutions.com/payroll-management-and-its-importance-for-employees',
+      permanent: true,
+    },
+
+    {
+      source: '/blogs/76-of-the-global-workforce-is-not-equipped-with-the-required-skills-to-function-in-a-digital-environment',
+      destination: 'https://blog.yomabusinesssolutions.com/76-of-the-global-workforce-is-not-equipped-with-the-required-skills-to-function-in-a-digital-environment',
+      permanent: true,
+    },
+
+    {
+      source: '/blogs/payroll-outsourcing-shaping-the-future-of-hr',
+      destination: 'https://blog.yomabusinesssolutions.com/payroll-outsourcing-shaping-the-future-of-hr',
+      permanent: true,
+    },
+
+    {
+      source: '/blogs/planning-your-human-resource-is-essential-for-effective-management',
+      destination: 'https://blog.yomabusinesssolutions.com/planning-your-human-resource-is-essential-for-effective-management',
+      permanent: true,
+    },
+
+    {
+      source: '/blogs/payroll-management-can-regulate-performance-management',
+      destination: 'https://blog.yomabusinesssolutions.com/payroll-management-can-regulate-performance-management',
+      permanent: true,
+    },
+
+    {
+      source: '/blogs/more-than-80-of-companies-will-face-it-talent-shortage-understanding-the-concept-of-it-staffing',
+      destination: 'https://blog.yomabusinesssolutions.com/more-than-80-of-companies-will-face-it-talent-shortage-understanding-the-concept-of-it-staffing',
+      permanent: true,
+    },
     
 
     {
