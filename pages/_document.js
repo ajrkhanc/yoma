@@ -27,7 +27,7 @@ class MyDocument extends Document {
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
           <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
           <link rel="icon" href="/favicon.png" />
-          <meta name="google-site-verification" content="NLt2fLY-Zv4a3CTFZkpB45Mag6Muyi-aKAfBhzjAGKU" />
+          <meta name="google-site-verification" content="R-j0Qb4sr2VF0rghX-27HQTrFHmKfY2CuO0R11rE02c" />
 
           {/* Global site tag (gtag.js) - Google Analytics */}
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-S0VDCRT65M"></script>
