@@ -72,7 +72,7 @@ export default function Header() {
                                         </li>
                                         <li className="dropdown"><a href="#">SOLUTIONS</a>
                                             <ul>
-                                                <li><a href="/general-staffingNew">General Staffing</a></li>
+                                                <li><a href="/general-staffing">General Staffing</a></li>
                                                 <li><a href="/industrial-staffing">Industrial Staffing</a></li>
                                                 <li><a href="/staff-augmentation">Staff Augmentation</a></li>
                                                 <li><a href="/managed-services">Managed Services</a></li>
