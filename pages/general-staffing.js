@@ -424,7 +424,9 @@ export default function Home() {
                         <div className="logoc wow fadeInUp delay-0-2s">
                            <img src="/assets/img/logo/hml/DABUR.png" alt='DABUR'/>
                         </div>
-                   
+                      <div className="logoc wow fadeInUp delay-0-2s">
+                           <img src="/assets/img/logo/hml/ITC.png" alt='ITC'/>
+                        </div>
                         <div className="logoc wow fadeInUp delay-0-2s">
                            <img src="/assets/img/logo/hml/LAKME.png" alt='LAKME'/>
                         </div>
