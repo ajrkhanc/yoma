@@ -146,10 +146,10 @@ export default function Home() {
    return (
       <>
          <Head>
-            <title>Best HR Outsourcing Company in India - YOMA Business Solution</title>
+            <title>General Staffing Services For High Quality Manpower - YOMA</title>
             <meta property="og:title" content="Best HR Outsourcing Company in India - YOMA Business Solution" />
-            <meta name="keywords" content="hr outsourcing services, hr outsourcing company, best hr outsourcing company, best hr solutions company" />
-            <meta name="description" content="Yoma is the best HR outsourcing company in India that help organizations to grow in an easier way. We help you with staff management, Payroll, Compliance,  etc. Enquire now." />
+            <meta name="keywords" content="general staffing, general staffing services, general staffing solution, temporary staffing, temporary staffing solution, temp services" />
+            <meta name="description" content="YOMA business solutions is India's best general staffing solution provider that handles the entire lifecycle of employees from onboarding to exit." />
             <meta name="Classification" content="hr outsourcing services" />
             <meta property="og:locale" content="en_us" />
             <meta property="og:title" content="Best HR Outsourcing Company in India - Yoma Business Solution" />
@@ -204,7 +204,7 @@ export default function Home() {
                    "https://yomamultinational.com/about-us#whowewre/",
                    "https://yomamultinational.com/about-us#missionvision/",
                    "https://yomamultinational.com/life-at-yoma/",
-                   "https://yomamultinational.com/general-staffing/",
+                   "https://yomamultinational.com/general-staffingNew/",
                    "https://yomamultinational.com/industrial-staffing/",
                    "https://yomamultinational.com/staff-augmentation/",
                    "https://yomamultinational.com/managed-services/",
@@ -312,10 +312,12 @@ export default function Home() {
             <script
                dangerouslySetInnerHTML={{
                   __html: `
-              {"@context":"https://schema.org/","@type":"CreativeWorkSeries","name":"Best HR Outsourcing Company in India","aggregateRating":{"@type":"AggregateRating","ratingValue":"3.9","bestRating":"5","ratingCount":"177"}}
+              {"@context":"https://schema.org/","@type":"CreativeWorkSeries","name":"General Staffing Services For High Quality Manpower - YOMA","aggregateRating":{"@type":"AggregateRating","ratingValue":"3.9","bestRating":"5","ratingCount":"177"}}
           `,
                }}
             />
+
+
 
          </Head>
 
@@ -341,11 +343,11 @@ export default function Home() {
                      <div className="about-content wow fadeInRight delay-0-2s animated animateright">
                         <div className="section-title">
                            {/* <p className='mainh1 font36c'>Welcome to The Yoma Business Solutions</p> */}
-                           <h1 className="mainh1 font28c"> </h1>
-                           <h2 className="mainh1"><span>One-Stop Destination</span> For General Staffing & Temporary Staffing</h2>
-                        </div>
+                           <h1 className="mainh1"> <span>Optimise</span> Your Workforce with Expert General Staffing Solution</h1>
+                         
+                        </div> 
                         <p className="text-justify">
-                        Amid the rising complexities, we serve organisations in fulfilling their contractual or temporary staffing by offering third-party staffing services. We specialise in seasonal, long-term, and project-based manpower requirements.
+                        Amid the rising complexities, we serve organisations in fulfilling their contractual or temporary staffing by offering third-party staffing services. We specialise in general staffing, seasonal, long-term, and project-based manpower requirements.
                         </p>
 
                         {/* <p className="text-justify">
@@ -361,7 +363,7 @@ export default function Home() {
                   <div className="col-lg-6">
                         <div className="contact-section-form px-15 rpx-0 rmb-50 wow fadeInLeft delay-0-2s animated animateleft boxDesign">
                            <div className="section-title mb-20">
-                              <h3>Book Consultation with Our Temporary Staffing Expert</h3>
+                              <h3>Book Consultation with our Staffing Expert</h3>
                            </div>
 
                            <form id="contactForm" className="contact-form" onSubmit={registusergeneral}>
@@ -424,7 +426,7 @@ export default function Home() {
                         <div className="logoc wow fadeInUp delay-0-2s">
                            <img src="/assets/img/logo/hml/DABUR.png" alt='DABUR'/>
                         </div>
-                      <div className="logoc wow fadeInUp delay-0-2s">
+                        <div className="logoc wow fadeInUp delay-0-2s">
                            <img src="/assets/img/logo/hml/ITC.png" alt='ITC'/>
                         </div>
                         <div className="logoc wow fadeInUp delay-0-2s">
@@ -459,12 +461,11 @@ export default function Home() {
                      <div className="about-content wow fadeInRight delay-0-2s animated animateright">
                         <div className="section-title">
                            {/* <h2 className="mainh1"><span>We Help</span> You Run Your Business Efficiently</h2> */}
-                           <h2 className="mainh1"><span>Best Temporary</span> Staffing Solution for Organizations in India</h2>
-
+                           <h2 className="mainh1"><span> Best General Staffing</span> Solution for Organizations in India</h2>
+                           
                         </div>
                         <p className="text-justify">
-                        Yoma Business Solutions stands out as the top temporary staffing company in India. They offer an unbeatable service when it comes to hiring temporary employees. Whether you're a big corporation or a small business, Yoma has got your back.
-
+                        Yoma Business Solutions stands out as the top general staffing company in India. They offer an unbeatable service when it comes to hiring temporary employees. Whether you're a big corporation or a small business, Yoma has got your back.
                         </p>
 
                         <p className="text-justify"> 
@@ -472,11 +473,11 @@ export default function Home() {
                         </p>
 
                         <p className="text-justify"> 
-                        Yoma also ensures that their temporary staff are well-trained and competent, ensuring a smooth transition into your company. Their cost-effective solutions save you money and time in the long run. Their customer service is top-notch. Yoma's friendly team is always there to assist you with your staffing needs and answer any questions you may have. They work closely with you to understand your unique requirements.
+                        Yoma also ensures that their general staff are well-trained and competent, ensuring a smooth transition into your company. Their cost-effective solutions save you money and time in the long run. Their customer service is top-notch. Yoma's friendly team is always there to assist you with your staffing needs and answer any questions you may have. They work closely with you to understand your unique requirements.
                         </p>
 
                         <p className="text-justify"> 
-                        In a nutshell, if you're in India and need temporary staff, Yoma Business Solutions is your go-to choice. They make temporary staffing a breeze, so you can keep your business running smoothly.
+                        In a nutshell, if you're in India and need general staff, YOMA Business Solutions is your go-to choice. They make temporary staffing a breeze, so you can keep your business running smoothly.
                         </p>
                      </div>
                   </div>
@@ -568,10 +569,10 @@ export default function Home() {
                         <div className="section-title">
                            {/* <h2 className="mainh1"><span>We Help</span> You Run Your Business Efficiently</h2> */}
                            <h2 className="mainh1"><span>Tailored Workforce</span> Solution for Short-Term Requirements</h2>
-
+                         
                         </div>
                         <p className="text-justify">
-                        We don’t just brag about being one of the best temporary staffing companies in India. We assure seamless functioning with utmost visibility to the clients. Our in-house, customised technology platform “Proanto” provides easy access from the mobile and gives real-time visibility of all the staff members, including front-line managers HR heads, supervisors, distributed employees, and field-force workers.Our fully automated and robust technology platform provides scalability in operating a larger volume of temporary staffing businesses and helps clients to have visibility of the workflows and on-ground activities on a real-time basis. In terms of general staffing, YOMA Business is currently serving companies across various industry verticals like BFSI, FMCG and Consumer products, Pharmaceuticals, Retail, Telecom, IT, BPO and ITES, Automobiles, Services, Manufacturing, Engineering, and other sectors.
+                        We don’t just brag about being one of the best general staffing companies in India. We assure seamless functioning with utmost visibility to the clients. Our in-house, customised technology platform “Proanto” provides easy access from the mobile and gives real-time visibility of all the staff members, including front-line managers HR heads, supervisors, distributed employees, and field-force workers.Our fully automated and robust technology platform provides scalability in operating a larger volume of temporary staffing businesses and helps clients to have visibility of the workflows and on-ground activities on a real-time basis. In terms of general staffing, YOMA Business is currently serving companies across various industry verticals like BFSI, FMCG and Consumer products, Pharmaceuticals, Retail, Telecom, IT, BPO and ITES, Automobiles, Services, Manufacturing, Engineering, and other sectors.
                         </p>
                      </div>
                   </div>
