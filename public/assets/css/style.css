@@ -82,3 +82,93 @@
 .btnwidthc{
     text-align: center;
 }
+
+
+
+/* newcss */
+/* Initially hide the button */
+.custom-btn1 {
+    display: none;
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    .custom-btn1 {
+        display: block;
+        /* Show the button */
+    }
+}
+
+.expand-button {
+    display: none;
+}
+
+/* Show button for 768 pixels or smaller screens */
+@media (max-width: 768px) {
+    .expand-button {
+        display: block;
+    }
+
+    .ellipsis-container .elllipse-text {
+        text-overflow: ellipsis;
+    }
+
+    .ellipsis-container .elllipse-text {
+        white-space: nowrap;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .ellipsis-container .elllipse-text1 {
+        text-overflow: ellipsis;
+    }
+
+    .ellipsis-container .elllipse-text1 {
+        white-space: nowrap;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .margin-0 {
+        margin: 0px !important;
+        margin-top: 10px !important;
+
+    }
+
+    .px-18 {
+        padding: 18px !important
+    }
+
+    .icon-center {
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+        margin-right: 0px !important;
+    }
+
+    .font-13 {
+        font-size: 13px;
+    }
+
+    .text-font {
+        font-size: 25px;
+    }
+
+    .pb-21 {
+        padding-bottom: 21px;
+    }
+
+    .about-content .section-title .mainh1{
+        font-size: 34px;
+    }
+}
+
+.slider-container {
+    overflow: hidden;
+}
+
+
+
+
