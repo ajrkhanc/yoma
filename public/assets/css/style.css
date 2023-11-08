@@ -59,7 +59,6 @@
     margin-right: 30px !important;
 }
 
-
 .btnwidthc {
     width: 114px!important;
     text-align: center;
@@ -93,9 +92,7 @@
 
 /* Media query for screens smaller than 768px */
 @media (max-width: 768px) {
-     #bookingform{
-        display: none;
-    }
+   
     .custom-btn1 {
         display: block;
         /* Show the button */
