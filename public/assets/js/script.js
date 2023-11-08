@@ -448,3 +448,90 @@
     });
 
 })(window.jQuery);
+
+
+
+// newjs
+// Check the window width and remove 'show' class from collapse element if width <= 768px
+$(document).ready(function () {
+    $(window).resize(function () {
+        if ($(window).width() <= 768) {
+            $('#collapseExample1').removeClass('show');
+        } else {
+            $('#collapseExample1').addClass('show');
+        }
+    });
+});
+
+
+
+
+const ellipsisContents1 = document.querySelectorAll(".elllipse-text1");
+const expandButtons1 = document.querySelectorAll(".expand-button1");
+
+expandButtons1.forEach((button, index) => {
+    button.addEventListener("click", function() {
+        // Toggle ellipsis class to expand or collapse content for the corresponding index
+        ellipsisContents1[index].classList.toggle("elllipse-text1");
+
+        // Change button text and arrow icon based on ellipsis class presence
+        if (ellipsisContents1[index].classList.contains("elllipse-text1")) {
+            button.innerHTML = "Read More <i class='fas fa-arrow-right ml-1 font-13'></i>";
+        } else {
+            button.innerHTML = "Read Less <i class='fas fa-arrow-left ml-1 font-13'></i>"; // You can change the arrow direction for "Read Less"
+        }
+    });
+});
+
+
+const ellipsisContents = document.querySelectorAll(".elllipse-text");
+const expandButton = document.querySelector(".expand-button");
+
+let isCollapsed = true;
+
+expandButton.addEventListener("click", function() {
+    isCollapsed = !isCollapsed;
+    
+    ellipsisContents.forEach(content => {
+        if (isCollapsed) {
+            content.classList.add("elllipse-text");
+        } else {
+            content.classList.remove("elllipse-text");
+        }
+    });
+
+    // Change button text and arrow icon based on ellipsis class presence
+    if (isCollapsed) {
+        expandButton.innerHTML = "Read More <i class='fas fa-arrow-right ml-1 font-13'></i>";
+    } else {
+        expandButton.innerHTML = "Read Less <i class='fas fa-arrow-left ml-1 font-13'></i>";
+    }
+});
+
+
+
+$(document).ready(function () {
+    initializeSlickSlider(); // Call the function when the page loads
+    //$(window).resize(initializeSlickSlider); // Call the function on window resize
+});
+
+function initializeSlickSlider() {
+    if ($(window).width() < 768) {
+        // Append the slider if the screen width is less than 768 pixels
+        $('.slider-container').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            infinite:true,
+        });
+    } else {
+        // Destroy the slider if it exists and the screen width is larger
+        if ($('.slider-container').hasClass('slick-initialized')) {
+            $('.slider-container').slick('unslick');
+        }
+    }
+}
+
+
+
