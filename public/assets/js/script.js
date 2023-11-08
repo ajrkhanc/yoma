@@ -453,21 +453,25 @@
 
 // newjs
 // Check the window width and remove 'show' class from collapse element if width <= 768px
-$(document).ready(function () {
-	if ($(window).width() <= 768) {
-            $('#bookingform').removeClass('show');
-        } else {
-            $('#bookingform').addClass('show');
-        }
-    $(window).resize(function () {
-        if ($(window).width() <= 768) {
-            $('#bookingform').removeClass('show');
-        } else {
-            $('#bookingform').addClass('show');
-        }
-    });
-});
+// $(document).ready(function () {
+//     if ($(window).width() <= 768) {
+//         $('#bookingform').removeClass('show');
+//     } else {
+//         $('#bookingform').addClass('show');
+//     }
 
+//     $(window).resize(function () {
+//         if ($(window).width() <= 768) {
+//             $('#bookingform').removeClass('show');
+//         } else {
+//             $('#bookingform').addClass('show');
+//         }
+//     });
+// });
+
+$('.enable-form').click(function(){
+    $('.booking-form').toggle();
+});
 
 
 
