@@ -536,6 +536,7 @@ function initializeSlickSlider() {
 $(document).ready(function(){
     if ($(window).width() < 768) {
         $('#bookingform').removeClass('show');
+	$('#bookingform').show();
     }
 
     else{
