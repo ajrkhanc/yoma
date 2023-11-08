@@ -113,7 +113,7 @@ export default function Home() {
       slidesToShow: 5,
       slidesToScroll: 5,
       initialSlide: 0,
-      autoplay: false,
+      autoplay: true,
       autoplaySpeed: 3000,
       responsive: [
          {
@@ -361,7 +361,12 @@ export default function Home() {
                   </div>
 
                   <div className="col-lg-6">
-                        <div className="contact-section-form px-15 rpx-0 rmb-50 wow fadeInLeft delay-0-2s animated animateleft boxDesign">
+                  <div className='d-flex justify-content-center'>
+                     <button className="btn btn-primary custom-btn1" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+                        Book Consultation 
+                     </button></div>
+                     <div class="collapse show" id="collapseExample1">
+                        <div className="contact-section-form px-15 mt-2 rpx-0 rmb-50 wow fadeInLeft delay-0-2s animated animateleft boxDesign margin-0 px-18">
                            <div className="section-title mb-20">
                               <h3>Book Consultation with our Staffing Expert</h3>
                            </div>
@@ -371,19 +376,19 @@ export default function Home() {
                                  <div className="col-sm-6">
                                     <div className="form-group">
                                        <label htmlFor="name">Your Name</label>
-                                       <input type="text" id="name" name="name" className="form-control" placeholder="Name*" required/>
+                                       <input type="text" id="name" name="name" className="form-control" placeholder="Name*" required />
                                     </div>
                                  </div>
                                  <div className="col-sm-6">
                                     <div className="form-group">
                                        <label htmlFor="email">Your email address</label>
-                                       <input type="email" id="email" name="email" className="form-control" placeholder="Work Email/Email*" required/>
+                                       <input type="email" id="email" name="email" className="form-control" placeholder="Work Email/Email*" required />
                                     </div>
                                  </div>
                                  <div className="col-sm-6">
                                     <div className="form-group">
                                        <label htmlFor="number">Phone No.</label>
-                                       <input type="number" id="number" name="number" className="form-control" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required/>
+                                       <input type="number" id="number" name="number" className="form-control" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
                                     </div>
                                  </div>
                                  <div className="col-sm-6">
@@ -392,7 +397,7 @@ export default function Home() {
                                        <input type="text" id="message" name="message" className="form-control" placeholder="Message" />
                                     </div>
                                  </div>
-                             
+
                                  <div className="col-sm-12">
                                     <input id="submitbuttonform" type="submit" className="theme-btn btnwidth" value="Book Now" />
                                     <div className="clearfix"></div>
@@ -402,7 +407,11 @@ export default function Home() {
                               </div>
                            </form>
                         </div>
+
                      </div>
+                  </div>
+
+
                </div>
             </div>
          </section>
@@ -458,28 +467,46 @@ export default function Home() {
                      </div>
                   </div>
                   <div className="col-lg-6">
-                     <div className="about-content wow fadeInRight delay-0-2s animated animateright">
+                  <div className="about-content wow fadeInRight delay-0-2s animated animateright">
                         <div className="section-title">
                            {/* <h2 className="mainh1"><span>We Help</span> You Run Your Business Efficiently</h2> */}
                            <h2 className="mainh1"><span> Best General Staffing</span> Solution for Organizations in India</h2>
-                           
+
                         </div>
-                        <p className="text-justify">
-                        Yoma Business Solutions stands out as the top general staffing company in India. They offer an unbeatable service when it comes to hiring temporary employees. Whether you're a big corporation or a small business, Yoma has got your back.
-                        </p>
 
-                        <p className="text-justify"> 
-                        What makes Yoma so great? Well, first, they have a vast pool of skilled workers ready to fill your temporary positions. Need someone for a few weeks or months? Yoma's got you covered. They handle all the nitty-gritty paperwork, making it easy for you to focus on your core business.
+                        <div class="ellipsis-container">
+                        <p class="text-justify elllipse-text mb-1">
+                            Yoma Business Solutions stands out as the top general staffing company in India. They offer an unbeatable
+                            service when it comes to hiring temporary employees. Whether you're a big corporation or a small business,
+                            Yoma has got your back.
                         </p>
-
-                        <p className="text-justify"> 
-                        Yoma also ensures that their general staff are well-trained and competent, ensuring a smooth transition into your company. Their cost-effective solutions save you money and time in the long run. Their customer service is top-notch. Yoma's friendly team is always there to assist you with your staffing needs and answer any questions you may have. They work closely with you to understand your unique requirements.
+                    </div>
+                    
+                    <div class="ellipsis-container">
+                        <p class="text-justify elllipse-text mb-1">
+                            What makes Yoma so great? Well, first, they have a vast pool of skilled workers ready to fill your temporary
+                            positions. Need someone for a few weeks or months? Yoma's got you covered. They handle all the nitty-gritty
+                            paperwork, making it easy for you to focus on your core business.
                         </p>
-
-                        <p className="text-justify"> 
-                        In a nutshell, if you're in India and need general staff, YOMA Business Solutions is your go-to choice. They make temporary staffing a breeze, so you can keep your business running smoothly.
+                    </div>
+                    
+                    <div class="ellipsis-container">
+                        <p class="text-justify elllipse-text mb-1">
+                            Yoma also ensures that their general staff are well-trained and competent, ensuring a smooth transition into your company. Their cost-effective solutions save you money and time in the long run. Their customer service is top-notch. Yoma's friendly team is always there to assist you with your staffing needs and answer any questions you may have. They work closely with you to understand your unique requirements.
                         </p>
+                    </div>
+                    
+                    <div class="ellipsis-container">
+                        <p class="text-justify elllipse-text mb-1">
+                            In a nutshell, if you're in India and need general staff, YOMA Business Solutions is your go-to choice. They make temporary staffing a breeze, so you can keep your business running smoothly.
+                        </p>
+                    </div>
+                    
+                    <span class="expand-button">Read More <i class="fas fa-arrow-right ml-1 font-13"></i></span>
                      </div>
+
+
+
                   </div>
                </div>
             </div>
@@ -488,116 +515,123 @@ export default function Home() {
          <div className="section-title text-center mb-35">
                         <h2 className="mainh1"><span>​​Onboarding</span>  to Exit We Manage the Entire Employee Lifecycle </h2>
                      </div>
-         <section className="services-section-two bg-blue pb-60 pt-50">
+
+        <section className="services-section-two bg-blue pb-60 pt-50 pb-21">
             <div className="container">
-                <div className="">
-                    <div className="row justify-content-center">
-                        {/* <div className="col-sm-12 text-center">
+               <div className="">
+                  <div className="row justify-content-center slider-container">
+                     {/* <div className="col-sm-12 text-center">
                             <p className="whitep">
                             Amid the rising complexities, we serve organizations in fulfilling their contractual or <b>temporary staffing</b> by offering third-party staffing services. <br></br>We specialize in seasonal, long-term, and project-based manpower requirements.
                             </p>
                             <p className="whitep2c pb-20">We manage the entire lifecycle of an employee, from his/her onboarding to exit, including:</p>
                         </div> */}
-                        <div className="clearfix"></div>
-                        <div className="col-sm-12 mycall7">
-                            <div className="service-style-two wow fadeInUp delay-0-7s animated animateUP">
-                                <div className="icon">
-                                    <img className="imgicon70" src="/assets/img/icon/payrolls.png" />
-                                </div>
-                                <h6><a>Payrolls</a></h6>
-                            </div>
+                     {/* <div className="clearfix"></div>*/}
+                     <div className="col-sm-12 mycall7">
+                        <div className="service-style-two wow fadeInUp delay-0-7s animated animateUP mb-0">
+                           <div className="icon icon-center">
+                              <img className="imgicon70" src="/assets/img/icon/payrolls.png" />
+                           </div>
+                           <h6><a>Payrolls</a></h6>
                         </div>
-                        <div className="col-sm-12 mycall7">
-                            <div className="service-style-two wow fadeInUp delay-0-8s animated animateUP">
-                                <div className="icon">
-                                <img className="imgicon70" src="/assets/img/icon/documentation.png" />
-                                </div>
-                                <h6><a>Documentation</a></h6>
-                            </div>
+                     </div>
+                     <div className="col-sm-12 mycall7">
+                        <div className="service-style-two wow fadeInUp delay-0-8s animated animateUP">
+                           <div className="icon icon-center">
+                              <img className="imgicon70" src="/assets/img/icon/documentation.png" />
+                           </div>
+                           <h6><a>Documentation</a></h6>
                         </div>
-                        <div className="col-sm-12 mycall7">
-                            <div className="service-style-two wow fadeInUp delay-0-9s animated animateUP">
-                                <div className="icon">
-                                <img className="imgicon70" src="/assets/img/icon/statutory-compliance.png" />
-                                </div>
-                                <h6><a>Statutory Compliance</a></h6>
-                            </div>
+                     </div>
+                     <div className="col-sm-12 mycall7">
+                        <div className="service-style-two wow fadeInUp delay-0-9s animated animateUP">
+                           <div className="icon icon-center">
+                              <img className="imgicon70" src="/assets/img/icon/statutory-compliance.png" />
+                           </div>
+                           <h6><a>Statutory Compliance</a></h6>
                         </div>
-                        <div className="col-sm-12 mycall7">
-                            <div className="service-style-two wow fadeInUp delay-1-0s animated animateUP">
-                                <div className="icon">
-                                <img className="imgicon70" src="/assets/img/icon/incentives.png" />
-                                </div>
-                                <h6><a>Incentives</a></h6>
-                            </div>
+                     </div>
+                     <div className="col-sm-12 mycall7">
+                        <div className="service-style-two wow fadeInUp delay-1-0s animated animateUP">
+                           <div className="icon icon-center">
+                              <img className="imgicon70" src="/assets/img/icon/incentives.png" />
+                           </div>
+                           <h6><a>Incentives</a></h6>
                         </div>
-                        <div className="col-sm-12 mycall7">
-                            <div className="service-style-two wow fadeInUp delay-1-1s animated animateUP">
-                                <div className="icon">
-                                <img className="imgicon70" src="/assets/img/icon/disbursement.png" />
-                                </div>
-                                <h6><a>Disbursement</a></h6>
-                            </div>
+                     </div>
+                     <div className="col-sm-12 mycall7">
+                        <div className="service-style-two wow fadeInUp delay-1-1s animated animateUP">
+                           <div className="icon icon-center">
+                              <img className="imgicon70" src="/assets/img/icon/disbursement.png" />
+                           </div>
+                           <h6><a>Disbursement</a></h6>
                         </div>
-                        <div className="col-sm-12 mycall7">
-                            <div className="service-style-two wow fadeInUp delay-1-2s animated animateUP">
-                                <div className="icon">
-                                <img className="imgicon70" src="/assets/img/icon/exit-formalities.png" />
-                                </div>
-                                <h6><a>Exit Formalities</a></h6>
-                            </div>
+                     </div>
+                     <div className="col-sm-12 mycall7">
+                        <div className="service-style-two wow fadeInUp delay-1-2s animated animateUP">
+                           <div className="icon icon-center">
+                              <img className="imgicon70" src="/assets/img/icon/exit-formalities.png" />
+                           </div>
+                           <h6><a>Exit Formalities</a></h6>
                         </div>
-                        <div className="col-sm-12 mycall7">
-                            <div className="service-style-two wow fadeInUp delay-1-2s animated animateUP">
-                                <div className="icon">
-                                <img className="imgicon70" src="/assets/img/icon/closures.png" />
-                                </div>
-                                <h6><a>Closures</a></h6>
-                            </div>
+                     </div>
+                     <div className="col-sm-12 mycall7">
+                        <div className="service-style-two wow fadeInUp delay-1-2s animated animateUP">
+                           <div className="icon icon-center">
+                              <img className="imgicon70" src="/assets/img/icon/closures.png" />
+                           </div>
+                           <h6><a>Closures</a></h6>
                         </div>
-                    </div>
-                </div>               
+                     </div>
+                  </div>
+               </div>
             </div>
-        </section>
+         </section>
 
-        <section className="about-section pt-50 pb-20">
+
+         <section className="about-section pt-50 pb-20">
             <div className="container">
                <div className="row align-items-center">
-                 
+
                   <div className="col-lg-6">
                      <div className="about-content wow fadeInRight delay-0-2s animated animateright">
                         <div className="section-title">
                            {/* <h2 className="mainh1"><span>We Help</span> You Run Your Business Efficiently</h2> */}
                            <h2 className="mainh1"><span>Tailored Workforce</span> Solution for Short-Term Requirements</h2>
-                         
+
                         </div>
-                        <p className="text-justify">
-                        We don’t just brag about being one of the best general staffing companies in India. We assure seamless functioning with utmost visibility to the clients. Our in-house, customised technology platform “Proanto” provides easy access from the mobile and gives real-time visibility of all the staff members, including front-line managers HR heads, supervisors, distributed employees, and field-force workers.Our fully automated and robust technology platform provides scalability in operating a larger volume of temporary staffing businesses and helps clients to have visibility of the workflows and on-ground activities on a real-time basis. In terms of general staffing, YOMA Business is currently serving companies across various industry verticals like BFSI, FMCG and Consumer products, Pharmaceuticals, Retail, Telecom, IT, BPO and ITES, Automobiles, Services, Manufacturing, Engineering, and other sectors.
-                        </p>
+                        <div class="ellipsis-container">
+                           <p className="text-justify elllipse-text1">
+                              We don’t just brag about being one of the best general staffing companies in India. We assure seamless functioning with utmost visibility to the clients. Our in-house, customised technology platform “Proanto” provides easy access from the mobile and gives real-time visibility of all the staff members, including front-line managers HR heads, supervisors, distributed employees, and field-force workers.Our fully automated and robust technology platform provides scalability in operating a larger volume of temporary staffing businesses and helps clients to have visibility of the workflows and on-ground activities on a real-time basis. In terms of general staffing, YOMA Business is currently serving companies across various industry verticals like BFSI, FMCG and Consumer products, Pharmaceuticals, Retail, Telecom, IT, BPO and ITES, Automobiles, Services, Manufacturing, Engineering, and other sectors.
+                           </p>
+                           <span class="expand-button1">Read More <i class="fas fa-arrow-right ml-1 font-13"></i></span>
+                        </div>
+
                      </div>
                   </div>
 
                   <div className="col-lg-6">
-                        <div className="wow fadeInLeft delay-0-2s animated animateleft text-center">
-                        <img src="/assets/img/tempstaff.jpg" alt="About"/>
-                        </div>
-                    </div>
+                     <div className="wow fadeInLeft delay-0-2s animated animateleft text-center">
+                        <img src="/assets/img/tempstaff.jpg" alt="About" />
+                     </div>
+                  </div>
 
 
                </div>
             </div>
          </section>
 
+
          <section className="cournter-section-three bg-lighter text-center pt-65 rpt-95 pb-70 rpb-50">
             <div className="container">
                <div className="section-title mb-55">
                   <h3 className='h3cc mainh1'><span>Why Choose Us as</span> Your Hiring Partner?</h3>
                   <p>
-                  Ranked amongst the Top-payroll Software companies in India, we can ease your HR related stress with dexterity! Now you can sit back and relax while we give you a seamless HR experience. - End-to-end employee management -Tech Based Staffing and managed solutions to maintain authenticity and accuracy in data -HR outsourcing services along-with cutting edge technology to assist you with the best
+                     Ranked amongst the Top-payroll Software companies in India, we can ease your HR related stress with dexterity! Now you can sit back and relax while we give you a seamless HR experience. - End-to-end employee management -Tech Based Staffing and managed solutions to maintain authenticity and accuracy in data -HR outsourcing services along-with cutting edge technology to assist you with the best
                   </p>
                   {/* <h2 className="mainh1">OUR <span>STRENGTHS</span></h2> */}
                </div>
-               <div className="row">
+               <div className="row slider-container">
                   <div className="col-lg-3 col-sm-6">
                      <div className="success-item circle-style wow fadeInUp delay-0-2s color-one counted animated animateUP">
                         <span className="count-text plus" data-speed="5000" data-stop="150">150</span>
@@ -623,9 +657,11 @@ export default function Home() {
                      </div>
                   </div>
                </div>
-             
+
             </div>
          </section>
+
+
 
 
          <section className="featured-section bgs-cover pt-40 homeservicebg">
@@ -714,95 +750,95 @@ export default function Home() {
             </div>
          </section>
 
-         <section className="what-we-do bg-lighter pt-50 rpt-40 pb-40 rpb-30">
+         <section className="what-we-do bg-lighter pt-50 rpt-40 pb-40 rpb-30">   
             <div className="container">
-                <div className="section-title text-center mb-35">
-                <h2 className="mainh1"><span>Why </span> Choose Us</h2> 
-                </div>
-                <div className="row justify-content-center">
-                    <div className="col-xl-4 col-md-6">
-                        <div className="feature-item wow fadeInUp delay-0-2s animated animateUP">                       
-                        <div className="icon">
-                            <img className="imgicon70" src="/assets/img/icon/whyi1.png" />
+               <div className="section-title text-center mb-35">
+                  <h2 className="mainh1"><span> Why </span> Choose Us</h2>
+               </div>
+               <div className="row justify-content-center slider-container">
+                  <div className="col-xl-4 col-md-6">
+                     <div className="feature-item wow fadeInUp delay-0-2s animated animateUP">
+                        <div className="icon icon-center">
+                           <img className="imgicon70" src="/assets/img/icon/whyi1.png" />
                         </div>
-                        <div className="feature-content">                            
-                            <p>Only HR and outsourcing company to offer people + in-house technology module for temporary staffing</p>
+                        <div className="feature-content">
+                           <p>Only HR and outsourcing company to offer people + in-house technology module for temporary staffing</p>
                         </div>
+                     </div>
+                  </div>
+                  <div className="col-xl-4 col-md-6">
+                     <div className="feature-item wow fadeInUp delay-0-4s animated animateUP">
+                        <div className="icon icon-center">
+                           <img className="imgicon70" src="/assets/img/icon/whyi2.png" />
                         </div>
-                    </div>
-                    <div className="col-xl-4 col-md-6">
-                        <div className="feature-item wow fadeInUp delay-0-4s animated animateUP">                       
-                        <div className="icon">
-                        <img className="imgicon70" src="/assets/img/icon/whyi2.png" />
+                        <div className="feature-content">
+                           <p>Adherence to statutory compliance and regulations</p>
                         </div>
-                        <div className="feature-content">                           
-                            <p>Adherence to statutory compliance and regulations</p>
+                     </div>
+                  </div>
+                  <div className="col-xl-4 col-md-6">
+                     <div className="feature-item wow fadeInUp delay-0-6s animated animateUP">
+                        <div className="icon icon-center">
+                           <img className="imgicon70" src="/assets/img/icon/whyi3.png" />
                         </div>
+                        <div className="feature-content">
+                           <p>Fully automated system and processes</p>
                         </div>
-                    </div>
-                    <div className="col-xl-4 col-md-6">
-                        <div className="feature-item wow fadeInUp delay-0-6s animated animateUP">                        
-                        <div className="icon">
-                        <img className="imgicon70" src="/assets/img/icon/whyi3.png" />
+                     </div>
+                  </div>
+                  <div className="col-xl-4 col-md-6">
+                     <div className="feature-item wow fadeInUp delay-0-6s animated animateUP">
+                        <div className="icon icon-center">
+                           <img className="imgicon70" src="/assets/img/icon/whyi4.png" />
                         </div>
-                        <div className="feature-content">                            
-                            <p>Fully automated system and processes</p>
+                        <div className="feature-content">
+                           <p>Customer care support with helpline numbers</p>
                         </div>
+                     </div>
+                  </div>
+                  <div className="col-xl-4 col-md-6">
+                     <div className="feature-item wow fadeInUp delay-0-6s animated animateUP">
+                        <div className="icon icon-center">
+                           <img className="imgicon70" src="/assets/img/icon/whyi5.png" />
                         </div>
-                    </div>
-                    <div className="col-xl-4 col-md-6">
-                        <div className="feature-item wow fadeInUp delay-0-6s animated animateUP">                        
-                        <div className="icon">
-                        <img className="imgicon70" src="/assets/img/icon/whyi4.png" />
+                        <div className="feature-content">
+                           <p>Operations across pan India, in more than 24 states</p>
                         </div>
-                        <div className="feature-content">                            
-                            <p>Customer care support with helpline numbers</p>
+                     </div>
+                  </div>
+                  <div className="col-xl-4 col-md-6">
+                     <div className="feature-item wow fadeInUp delay-0-6s animated animateUP">
+                        <div className="icon icon-center">
+                           <img className="imgicon70" src="/assets/img/icon/whyi6.png" />
                         </div>
+                        <div className="feature-content">
+                           <p>Client and employee dashboards</p>
                         </div>
-                    </div>
-                    <div className="col-xl-4 col-md-6">
-                        <div className="feature-item wow fadeInUp delay-0-6s animated animateUP">                        
-                        <div className="icon">
-                        <img className="imgicon70" src="/assets/img/icon/whyi5.png" />
+                     </div>
+                  </div>
+                  <div className="col-xl-4 col-md-6">
+                     <div className="feature-item wow fadeInUp delay-0-6s animated animateUP">
+                        <div className="icon icon-center">
+                           <img className="imgicon70" src="/assets/img/icon/whyi7.png" />
                         </div>
-                        <div className="feature-content">                            
-                            <p>Operations across pan India, in more than 24 states</p>
+                        <div className="feature-content">
+                           <p>Wide range of manpower pool available anytime</p>
                         </div>
+                     </div>
+                  </div>
+                  <div className="col-xl-4 col-md-6">
+                     <div className="feature-item wow fadeInUp delay-0-6s animated animateUP">
+                        <div className="icon icon-center">
+                           <img className="imgicon70" src="/assets/img/icon/whyi8.png" />
                         </div>
-                    </div>
-                    <div className="col-xl-4 col-md-6">
-                        <div className="feature-item wow fadeInUp delay-0-6s animated animateUP">                        
-                        <div className="icon">
-                        <img className="imgicon70" src="/assets/img/icon/whyi6.png" />
+                        <div className="feature-content">
+                           <p>Rich experience in serving large MNCs and wide range of industries</p>
                         </div>
-                        <div className="feature-content">                            
-                            <p>Client and employee dashboards</p>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="col-xl-4 col-md-6">
-                        <div className="feature-item wow fadeInUp delay-0-6s animated animateUP">                        
-                        <div className="icon">
-                        <img className="imgicon70" src="/assets/img/icon/whyi7.png" />
-                        </div>
-                        <div className="feature-content">                            
-                            <p>Wide range of manpower pool available anytime</p>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="col-xl-4 col-md-6">
-                        <div className="feature-item wow fadeInUp delay-0-6s animated animateUP">                        
-                        <div className="icon">
-                        <img className="imgicon70" src="/assets/img/icon/whyi8.png" />
-                        </div>
-                        <div className="feature-content">                            
-                            <p>Rich experience in serving large MNCs and wide range of industries</p>
-                        </div>
-                        </div>
-                    </div>                                      
-                </div>
+                     </div>
+                  </div>
+               </div>
             </div>
-            </section>
+         </section>
        
          <section className="contact-four pt-70 rpt-50 pb-70 rpb-70">
             <div className="container">
