@@ -533,5 +533,15 @@ function initializeSlickSlider() {
     }
 }
 
+$(document).ready(function(){
+    if ($(window).width() < 768) {
+        $('#bookingform').removeClass('show');
+    }
+
+    else{
+        $('#bookingform').addClass('show');
+    }
+   
+})
 
 
