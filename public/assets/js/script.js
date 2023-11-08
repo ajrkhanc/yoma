@@ -456,9 +456,9 @@
 $(document).ready(function () {
     $(window).resize(function () {
         if ($(window).width() <= 768) {
-            $('#collapseExample1').removeClass('show');
+            $('#bookingform').removeClass('show');
         } else {
-            $('#collapseExample1').addClass('show');
+            $('#bookingform').addClass('show');
         }
     });
 });
