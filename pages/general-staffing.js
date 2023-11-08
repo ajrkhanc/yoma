@@ -365,7 +365,7 @@ export default function Home() {
                      <button className="btn btn-primary custom-btn1" type="button" data-toggle="collapse" data-target="#bookingform" aria-expanded="false" aria-controls="collapseExample">
                         Book Consultation 
                      </button></div>
-                     <div class="collapse" id="bookingform">
+                     <div class="collapse show" id="bookingform">
                         <div className="contact-section-form px-15 mt-2 rpx-0 rmb-50 wow fadeInLeft delay-0-2s animated animateleft boxDesign margin-0 px-18">
                            <div className="section-title mb-20">
                               <h3>Book Consultation with our Staffing Expert</h3>
