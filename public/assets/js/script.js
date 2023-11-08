@@ -516,7 +516,7 @@ $(document).ready(function () {
 });
 
 function initializeSlickSlider() {
-    if ($(window).width() < 768) {
+    if ($(window).width() < 768) {  
         // Append the slider if the screen width is less than 768 pixels
         $('.slider-container').slick({
             slidesToShow: 1,
@@ -532,6 +532,7 @@ function initializeSlickSlider() {
         }
     }
 }
+
 
 
 
