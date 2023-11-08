@@ -93,6 +93,9 @@
 
 /* Media query for screens smaller than 768px */
 @media (max-width: 768px) {
+     #bookingform{
+        display: none;
+    }
     .custom-btn1 {
         display: block;
         /* Show the button */
