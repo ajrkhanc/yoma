@@ -1,8 +1,8 @@
 RewriteEngine on
 Options +FollowSymlinks
 
-#RewriteCond %{HTTP_HOST} !^www.yomabusinesssolutions.com$ [NC]
-#RewriteRule ^(.*)$ http://www.yomabusinesssolutions.com/$1 [L,R=301]
+#RewriteCond %{HTTP_HOST} !^https://www.yomabusinesssolutions.com$ [NC]
+#RewriteRule ^(.*)$ www.yomabusinesssolutions.com/$1 [L,R=301]
 
 RewriteCond %{THE_REQUEST} ^.*\/index\.(html)?
 RewriteRule ^(.*)index\.(html)?$ https://yomabusinesssolutions.com/$1 [R=301,L]
