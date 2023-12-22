@@ -30,6 +30,30 @@
     19. Preloader
     
 -----------------------------------------------------------------------------------*/
+$(document).ready(function () {
+    initializeSlickSlider(); // Call the function when the page loads
+    //$(window).resize(initializeSlickSlider); // Call the function on window resize
+});
+
+function initializeSlickSlider() {
+    if ($(window).width() < 768) {  
+        // Append the slider if the screen width is less than 768 pixels
+        $('.slider-container').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            infinite:true,
+        });
+    } else {
+        // Destroy the slider if it exists and the screen width is larger
+        if ($('.slider-container').hasClass('slick-initialized')) {
+            $('.slider-container').slick('unslick');
+        }
+    }
+}
+
+
 
 (function ($) {
 
@@ -475,16 +499,17 @@ $('.enable-form').click(function(){
 
 
 
-const ellipsisContents1 = document.querySelectorAll(".elllipse-text1");
-const expandButtons1 = document.querySelectorAll(".expand-button1");
+// Why Industrial Staffing js
+const ellipsisContents2 = document.querySelectorAll(".elllipse-text2");
+const expandButtons2 = document.querySelectorAll(".expand-button2");
 
-expandButtons1.forEach((button, index) => {
+expandButtons2.forEach((button, index) => {
     button.addEventListener("click", function() {
         // Toggle ellipsis class to expand or collapse content for the corresponding index
-        ellipsisContents1[index].classList.toggle("elllipse-text1");
+        ellipsisContents2[index].classList.toggle("elllipse-text2");
 
         // Change button text and arrow icon based on ellipsis class presence
-        if (ellipsisContents1[index].classList.contains("elllipse-text1")) {
+        if (ellipsisContents2[index].classList.contains("elllipse-text2")) {
             button.innerHTML = "Read More <i class='fas fa-arrow-right ml-1 font-13'></i>";
         } else {
             button.innerHTML = "Read Less <i class='fas fa-arrow-left ml-1 font-13'></i>"; // You can change the arrow direction for "Read Less"
@@ -493,11 +518,10 @@ expandButtons1.forEach((button, index) => {
 });
 
 
+// What is Industrial Staffing js
 const ellipsisContents = document.querySelectorAll(".elllipse-text");
 const expandButton = document.querySelector(".expand-button");
-
 let isCollapsed = true;
-
 expandButton.addEventListener("click", function() {
     isCollapsed = !isCollapsed;
     
@@ -508,8 +532,7 @@ expandButton.addEventListener("click", function() {
             content.classList.remove("elllipse-text");
         }
     });
-
-    // Change button text and arrow icon based on ellipsis class presence
+  // Change button text and arrow icon based on ellipsis class presence
     if (isCollapsed) {
         expandButton.innerHTML = "Read More <i class='fas fa-arrow-right ml-1 font-13'></i>";
     } else {
@@ -518,29 +541,77 @@ expandButton.addEventListener("click", function() {
 });
 
 
+// What is Industrial Staffing js
+const ellipsisContents1 = document.querySelectorAll(".elllipse-text1");
+const expandButton1 = document.querySelector(".expand-button1");
+let isCollapsed1 = true;
 
-$(document).ready(function () {
-    initializeSlickSlider(); // Call the function when the page loads
-    //$(window).resize(initializeSlickSlider); // Call the function on window resize
+expandButton1.addEventListener("click", function() {
+    isCollapsed1 = !isCollapsed1;
+
+    ellipsisContents1.forEach(content => {
+        if (isCollapsed1) {
+            content.classList.add("elllipse-text1");
+        } else {
+            content.classList.remove("elllipse-text1");
+        }
+    });
+
+    // Change button text and arrow icon based on ellipsis class presence
+    if (isCollapsed1) {
+        expandButton1.innerHTML = "Read More <i class='fas fa-arrow-right ml-1 font-13'></i>";
+    } else {
+        expandButton1.innerHTML = "Read Less <i class='fas fa-arrow-left ml-1 font-13'></i>";
+    }
 });
 
-function initializeSlickSlider() {
-    if ($(window).width() < 768) {  
-        // Append the slider if the screen width is less than 768 pixels
-        $('.slider-container').slick({
+ 
+//plusminus in accordin faq//
+$(document).ready(function() {
+    $('.collapse').on('shown.bs.collapse', function() {
+        $(this).prev().find('.fas').removeClass('fa-plus').addClass('fa-minus');
+    }).on('hidden.bs.collapse', function() {
+        $(this).prev().find('.fas').removeClass('fa-minus').addClass('fa-plus');
+    });
+});
+
+
+//faq hide nd show js///
+$(document).ready(function() {
+    $('#showMoreBtn').click(function() {
+        // Toggle the visibility of hidden accordion items
+        var hiddenItems = $('.accordion .card.d-none');
+        if (hiddenItems.length > 0) {
+            hiddenItems.removeClass('d-none');
+        } else {
+            $('.accordion .card:gt(4)').addClass('d-none');
+        }
+
+        // Update button text
+        var buttonText = ($(this).text() === 'Read More') ? 'Read Less' : 'Read More';
+        $(this).text(buttonText);
+    });
+});
+
+
+// newadd slick
+$(document).ready(function(){
+    var windowWidth = $(window).width();
+
+    if (windowWidth < 768) {  
+        $('.new-slick').slick({
             slidesToShow: 1,
             slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 2000,
-            infinite:true,
+            autoplay:true,
+            infinite: true,  
         });
-    } else {
-        // Destroy the slider if it exists and the screen width is larger
-        if ($('.slider-container').hasClass('slick-initialized')) {
-            $('.slider-container').slick('unslick');
-        }
     }
-}
+});
+
+
+
+
+
 
 
 
