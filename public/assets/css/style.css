@@ -84,20 +84,41 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* newcss */
 /* Initially hide the button */
 .custom-btn1 {
     display: none;
 }
 
+
+
 /* Media query for screens smaller than 768px */
 @media (max-width: 768px) {
-   .booking-form{
-    display: none;
-   }
+    .booking-form {
+        display: none;
+    }
     .custom-btn1 {
         display: block;
-        /* Show the button */
     }
 }
 
@@ -105,9 +126,38 @@
     display: none;
 }
 
+/* .expand-button1 {
+    display: none;
+} */
+.expand-button2 {
+    display: none;
+}
+.expand-button1 {
+    display: block;
+}
+
+.ellipsis-container1 .elllipse-text1 {
+    text-overflow: ellipsis;
+}
+
+.ellipsis-container1 .elllipse-text1 {
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 /* Show button for 768 pixels or smaller screens */
 @media (max-width: 768px) {
+    .new-slick {
+        overflow: hidden;
+    }
+    .expand-button1 {
+        display: block;
+    }
     .expand-button {
+        display: block;
+    }
+    .expand-button2 {
         display: block;
     }
 
@@ -122,11 +172,22 @@
         text-overflow: ellipsis;
     }
 
-    .ellipsis-container .elllipse-text1 {
+    /* .ellipsis-container1 .elllipse-text1 {
         text-overflow: ellipsis;
     }
 
-    .ellipsis-container .elllipse-text1 {
+    .ellipsis-container1 .elllipse-text1 {
+        white-space: nowrap;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    } */
+
+    .ellipsis-container2 .elllipse-text2 {
+        text-overflow: ellipsis;
+    }
+
+    .ellipsis-container2 .elllipse-text2 {
         white-space: nowrap;
         width: 100%;
         overflow: hidden;
@@ -162,7 +223,7 @@
         padding-bottom: 21px;
     }
 
-    .about-content .section-title .mainh1{
+    .about-content .section-title .mainh1 {
         font-size: 34px;
     }
 }
@@ -171,6 +232,114 @@
     overflow: hidden;
 }
 
+/* /////newcss */
+ul,
+.list {
+    list-style: unset;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .p-8 {
+        padding: 8px;
+    }
+}
+
+
+
+/* .box-button {
+    background: #fff;
+    color: black;
+    border: 1px solid black;
+    padding: 6px 20px;
+    border-radius: 5px;
+    max-width: fit-content;
+    margin: auto;
+    text-align: center;
+} */
+.box-button:hover {
+    background: #2e68b0;
+    color: white;
+    border: 1px solid white;
+}
+.card-bg{
+    background: #2e68b0;
+}
+.cardbody-bg{
+    background: #caced3a6;
+    color: white;
+    border-top: 1px solid;
+
+}
+
+.btn.focus, .text-decoration-none:focus {
+    box-shadow: none;
+}
+input:focus, button:focus, .form-control:focus {
+    border-color: #cfdbf100 !important;
+}
+.btn-outline-primary {
+    color: #2e68b0 ;
+    border-color: #2e68b0 ;
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color:#2e68b0;
+    border-color:#2e68b0;
+}
+.w-200{
+    width: 150px !important;
+}
+
+
+
+
+
+
+.box-button {
+    background: #fff;
+    color: black;
+    border: 1px solid black;
+    padding: 6px 20px;
+    border-radius: 5px;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .box-button {
+        flex: 100%;
+        margin: 0 5px 10px 5px; 
+        /* width: 275px; */
+        max-width: 88%;
+        margin-left: 20px;   
+    }
+}
+
+.new-shadow:hover{
+    background-color: #2e68b0;
+}
+.new-shadow:hover .feature-content,
+.new-shadow:hover .icon img {
+    filter: brightness(0) invert(1);
+}
+
+
+
+
+
+
+.ellipsis-container3 .elllipse-text3 {
+    text-overflow: ellipsis;
+}
+
+.ellipsis-container3 .elllipse-text3 {
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
 
 
