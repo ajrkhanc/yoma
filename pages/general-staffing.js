@@ -432,22 +432,22 @@ export default function Home() {
                   <div className="col-sm-12">
                      
                      <Slider {...logos}>
-                        <div className="logoc wow fadeInUp delay-0-2s">
+                        <div className="logoc wow fadeInUp delay-0-2s w-200">
                            <img src="/assets/img/logo/hml/DABUR.png" alt='DABUR'/>
                         </div>
-                        <div className="logoc wow fadeInUp delay-0-2s">
+                        <div className="logoc wow fadeInUp delay-0-2s w-200">
                            <img src="/assets/img/logo/hml/ITC.png" alt='ITC'/>
                         </div>
-                        <div className="logoc wow fadeInUp delay-0-2s">
+                        <div className="logoc wow fadeInUp delay-0-2s w-200">
                            <img src="/assets/img/logo/hml/LAKME.png" alt='LAKME'/>
                         </div>
-                        <div className="logoc wow fadeInUp delay-0-2s">
+                        <div className="logoc wow fadeInUp delay-0-2s w-200">
                            <img src="/assets/img/logo/hml/PAYTM.png" alt='PAYTM'/>
                         </div>
-                        <div className="logoc wow fadeInUp delay-0-2s">
+                        <div className="logoc wow fadeInUp delay-0-2s w-200">
                            <img src="/assets/img/logo/hml/SWIGGY.png" alt='SWIGGY'/>
                         </div>
-                        <div className="logoc wow fadeInUp delay-0-2s">
+                        <div className="logoc wow fadeInUp delay-0-2s w-200">
                            <img src="/assets/img/logo/hml/ZOMATO.png" alt='ZOMATO'/>
                         </div>
                      </Slider>
@@ -600,11 +600,11 @@ export default function Home() {
                            <h2 className="mainh1"><span>Tailored Workforce</span> Solution for Short-Term Requirements</h2>
 
                         </div>
-                        <div class="ellipsis-container">
-                           <p className="text-justify elllipse-text1">
+                        <div class="ellipsis-container2">
+                           <p className="text-justify elllipse-text2">
                               We don’t just brag about being one of the best general staffing companies in India. We assure seamless functioning with utmost visibility to the clients. Our in-house, customised technology platform “Proanto” provides easy access from the mobile and gives real-time visibility of all the staff members, including front-line managers HR heads, supervisors, distributed employees, and field-force workers.Our fully automated and robust technology platform provides scalability in operating a larger volume of temporary staffing businesses and helps clients to have visibility of the workflows and on-ground activities on a real-time basis. In terms of general staffing, YOMA Business is currently serving companies across various industry verticals like BFSI, FMCG and Consumer products, Pharmaceuticals, Retail, Telecom, IT, BPO and ITES, Automobiles, Services, Manufacturing, Engineering, and other sectors.
                            </p>
-                           <span class="expand-button1">Read More <i class="fas fa-arrow-right ml-1 font-13"></i></span>
+                           <span class="expand-button2">Read More <i class="fas fa-arrow-right ml-1 font-13"></i></span>
                         </div>
 
                      </div>
@@ -675,7 +675,7 @@ export default function Home() {
                </div>
                <div className="row align-items-center icon70">
                   <div className="col-xl-4 col-md-6">
-                     <div className="feature-item wow fadeInUp delay-0-2s">
+                     <div className="feature-item wow fadeInUp delay-0-2s new-shadow">
                         <div className="icon">
                            <img src="/assets/img/icon/general-staffing.png" alt='General Staffing'/>
                         </div>
@@ -687,7 +687,7 @@ export default function Home() {
                      </div>
                   </div>
                   <div className="col-xl-4 col-md-6">
-                     <div className="feature-item wow fadeInUp delay-0-4s">
+                     <div className="feature-item wow fadeInUp delay-0-4s new-shadow">
                         <div className="icon">
                            <img src="/assets/img/icon/industrial-staffing.png" alt='Industrial Staffing'/>
                         </div>
@@ -699,7 +699,7 @@ export default function Home() {
                      </div>
                   </div>
                   <div className="col-xl-4 col-md-6">
-                     <div className="feature-item wow fadeInUp delay-0-6s">
+                     <div className="feature-item wow fadeInUp delay-0-6s new-shadow">
                         <div className="icon">
                            <img src="/assets/img/icon/staff-augmentation.png" alt='Staff Augmentation'/>
                         </div>
@@ -711,7 +711,7 @@ export default function Home() {
                      </div>
                   </div>
                   <div className="col-xl-4 col-md-6">
-                     <div className="feature-item wow fadeInUp delay-0-8s">
+                     <div className="feature-item wow fadeInUp delay-0-8s new-shadow">
                         <div className="icon">
                            <img src="/assets/img/icon/manage-services.png" alt='Managed Services'/>
                         </div>
@@ -723,7 +723,7 @@ export default function Home() {
                      </div>
                   </div>
                   <div className="col-xl-4 col-md-6">
-                     <div className="feature-item wow fadeInUp delay-1-0s">
+                     <div className="feature-item wow fadeInUp delay-1-0s new-shadow">
                         <div className="icon">
                            <img src="/assets/img/icon/shared-resource-program.png" alt='Shared Resource Program'/>
                         </div>
@@ -735,7 +735,7 @@ export default function Home() {
                      </div>
                   </div>
                   <div className="col-xl-4 col-md-6">
-                     <div className="feature-item wow fadeInUp delay-1-2s">
+                     <div className="feature-item wow fadeInUp delay-1-2s new-shadow">
                         <div className="icon">
                            <img src="/assets/img/icon/apprenticeship-program.png" alt='Apprenticeship Program (NAPS)'/>
                         </div>
