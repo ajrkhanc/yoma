@@ -136,6 +136,7 @@ export default function Home() {
             <meta name="twitter:description" content="Yoma is the best HR outsourcing company in India that help organizations to grow in an easier way. We help you with staff management, Payroll,   Compliance, etc. Enquire now." />
             <meta name="twitter:image:src" content="https://yomabusinesssolutions.com/assets/img/logo/yoma-logo.png" />
             <meta name="twitter:domain" content="https://yomabusinesssolutions.com/" />
+            <meta name="google-site-verification" content="R-j0Qb4sr2VF0rghX-27HQTrFHmKfY2CuO0R11rE02c" />
             <script
                dangerouslySetInnerHTML={{
                   __html: `
