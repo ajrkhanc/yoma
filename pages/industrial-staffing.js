@@ -374,10 +374,11 @@ export default function Home() {
         <script
           dangerouslySetInnerHTML={{
             __html: `
-              {"@context":"https://schema.org/","@type":"CreativeWorkSeries","name":"General Staffing Services For High Quality Manpower - YOMA","aggregateRating":{"@type":"AggregateRating","ratingValue":"3.9","bestRating":"5","ratingCount":"177"}}
+            {"@context":"https://schema.org/","@type":"CreativeWorkSeries","name":"Best Industrial Staffing Service Provider in India - YOMA","aggregateRating":{"@type":"AggregateRating","ratingValue":"3.9","bestRating":"5","ratingCount":"177"}}
           `,
           }}
         />
+        
       </Head>
 
       {/* <section className="hero-section paddingb">
