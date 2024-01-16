@@ -37,7 +37,7 @@ export default function Home() {
 
    }
 
-   
+
    const registusergeneral = async event => {
       event.preventDefault()
       document.getElementById("submitbuttonform").value = "Submitting form...."
@@ -65,7 +65,7 @@ export default function Home() {
       xhttp.send("leadsquared-FirstName=" + event.target.name.value +
          "&leadsquared-EmailAddress=" + event.target.email.value +
          "&leadsquared-Mobile=" + event.target.number.value +
-         "&leadsquared-Notes=" + event.target.message.value )
+         "&leadsquared-Notes=" + event.target.message.value)
 
    }
 
@@ -146,28 +146,32 @@ export default function Home() {
    return (
       <>
          <Head>
-            <title>General Staffing Services For High Quality Manpower - YOMA</title>
-            <meta property="og:title" content="Best HR Outsourcing Company in India - YOMA Business Solution" />
+            <title>General Staffing Solutions | Contract or Temporary Staffing Services in India
+            </title>
+            <meta property="og:title" content="General Staffing Services For High Quality Manpower - YOMA" />
             <meta name="keywords" content="general staffing, general staffing services, general staffing solution, temporary staffing, temporary staffing solution, temp services" />
-            <meta name="description" content="YOMA business solutions is India's best general staffing solution provider that handles the entire lifecycle of employees from onboarding to exit." />
+            <meta name="description" content="General Staffing Services in India. Yoma is one of the largest provider of contractual staffing, temporary employment placement and recruitment services in India." />
             <meta name="Classification" content="hr outsourcing services" />
             <meta property="og:locale" content="en_us" />
-            <meta property="og:title" content="Best HR Outsourcing Company in India - Yoma Business Solution" />
+            <meta property="og:title" content="General Staffing Services For High Quality Manpower - YOMA" />
             <meta property="og:site_name" content="Yoma Business Solutions Pvt. Ltd" />
-            <meta property="og:url" content="https://yomabusinesssolutions.com/" />
-            <meta property="og:description" content="Yoma is the best HR outsourcing company in India that help organizations to grow in an easier way. We help you with staff management, Payroll,   Compliance, etc. Enquire now." />
+            <meta property="og:url" content="https://yomabusinesssolutions.com/general-staffing/" />
+            <meta property="og:description" content="YOMA business solutions is India’s best general staffing solution provider that handles the entire lifecycle of employees from onboarding to exit." />
             <meta property="og:type" content="website" />
             <meta property="og:image" content="https://yomabusinesssolutions.com/assets/img/logo/yoma-logo.png" />
-            <meta itemprop="Best HR Outsourcing Company in India - Yoma Business Solution" />
-            <meta itemprop="description" content="Yoma is the best HR outsourcing company in India that help organizations to grow in an easier way. We help you with staff management, Payroll,   Compliance, etc. Enquire now." />
+            <meta itemprop="General Staffing Services For High Quality Manpower - YOMA" />
+            <meta itemprop="description" content="YOMA business solutions is India’s best general staffing solution provider that handles the entire lifecycle of employees from onboarding to exit." />
             <meta itemprop="image" content="https://yomabusinesssolutions.com/assets/img/logo/yoma-logo.png" />
+            <meta name="robots" content="INDEX, FOLLOW" />
             <meta name="Classification" content="hr outsourcing services" />
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:site" content="@yomabusinesssolutions" />
-            <meta name="twitter:title" content="Best HR Outsourcing Company in India - Yoma Business Solution" />
-            <meta name="twitter:description" content="Yoma is the best HR outsourcing company in India that help organizations to grow in an easier way. We help you with staff management, Payroll,   Compliance, etc. Enquire now." />
+            <meta name="twitter:title" content="General Staffing Services For High Quality Manpower - YOMA" />
+            <meta name="twitter:description" content="YOMA business solutions is India’s best general staffing solution provider that handles the entire lifecycle of employees from onboarding to exit." />
             <meta name="twitter:image:src" content="https://yomabusinesssolutions.com/assets/img/logo/yoma-logo.png" />
             <meta name="twitter:domain" content="https://yomabusinesssolutions.com/" />
+            <link rel="canonical" href="https://yomabusinesssolutions.com/general-staffing" />
+
             <script
                dangerouslySetInnerHTML={{
                   __html: `
@@ -229,28 +233,20 @@ export default function Home() {
                }}
             />
 
-            <script
+            <script type="application/ld+json"
                dangerouslySetInnerHTML={{
                   __html: `
-              {
-               "@context": "https://schema.org",
-               "@type": "WebSite",
-               "name": "Yoma Business Solutions Pvt. Ltd",
-               "alternateName": "Yoma Business Solutions",
-               "url": "https://yomamultinational.com//",
-               "potentialAction": [
-                   {
+                  {
+                     "@context": "https://schema.org/",
+                     "@type": "WebSite",
+                     "name": "Yoma Business Solution",
+                     "url": "https://yomabusinesssolutions.com/",
+                     "potentialAction": {
                        "@type": "SearchAction",
-                       "target": "https://yomamultinational.com//{search_term_string}",
+                       "target": "https://yomabusinesssolutions.com/general-staffing{search_term_string}",
                        "query-input": "required name=search_term_string"
-                   },
-                   {
-                       "@type": "SearchAction",
-                       "target": "https://yomamultinational.com/{search_term_string}",
-                       "query-input": "required name=search_term_string"
+                     }
                    }
-               ]
-           }
            
           `,
                }}
@@ -280,30 +276,32 @@ export default function Home() {
                }}
             />
 
-            <script
+            <script type="application/ld+json"
                dangerouslySetInnerHTML={{
                   __html: `
-              {
-               "@context": "https://schema.org",
-               "@type": "Organization",
-               "name": "Yoma Business Solutions Pvt. Ltd",
-               "url": "https://yomamultinational.com/",
-               "logo": "https://yomamultinational.com/assets/img/logo/yoma-logo.png",
-               "contactPoint": [
-                   {
+                  {
+                     "@context": "https://schema.org",
+                     "@type": "Organization",
+                     "name": "YOMA Business Solutions",
+                     "alternateName": "YOMA",
+                     "url": "https://yomabusinesssolutions.com/",
+                     "logo": "https://yomabusinesssolutions.com/assets/img/logo/yoma-logo.png",
+                     "contactPoint": {
                        "@type": "ContactPoint",
-                       "telephone": " +91-844-818 8503",
+                       "telephone": "1800 102 1345",
                        "contactType": "customer service",
-                       "email": "yoma.info@byldgroup.com",
-                       "areaServed": [
-                           "IN"
-                       ],
-                       "availableLanguage": [
-                           "English"
-                       ]
+                       "contactOption": "TollFree",
+                       "areaServed": "IN",
+                       "availableLanguage": ["en","Hindi"]
+                     },
+                     "sameAs": [
+                       "https://www.facebook.com/YOMABusinessSolutions",
+                       "https://twitter.com/YomaSolutions",
+                       "https://www.instagram.com/yoma.business",
+                       "https://www.youtube.com/user/yomamultinational",
+                       "https://www.linkedin.com/company/yomabusinesssolutions/"
+                     ]
                    }
-               ]
-           }
            
           `,
                }}
@@ -338,16 +336,16 @@ export default function Home() {
          <section className="about-section pt-50 pb-20">
             <div className="container">
                <div className="row align-items-center">
-                  
+
                   <div className="col-lg-6">
                      <div className="about-content wow fadeInRight delay-0-2s animated animateright">
                         <div className="section-title">
                            {/* <p className='mainh1 font36c'>Welcome to The Yoma Business Solutions</p> */}
                            <h1 className="mainh1"> <span>Optimise</span> Your Workforce with Expert General Staffing Solution</h1>
-                         
-                        </div> 
+
+                        </div>
                         <p className="text-justify">
-                        Amid the rising complexities, we serve organisations in fulfilling their contractual or temporary staffing by offering third-party staffing services. We specialise in general staffing, seasonal, long-term, and project-based manpower requirements.
+                           Amid the rising complexities, we serve organisations in fulfilling their contractual or temporary staffing by offering third-party staffing services. We specialise in general staffing, seasonal, long-term, and project-based manpower requirements.
                         </p>
 
                         {/* <p className="text-justify">
@@ -361,10 +359,10 @@ export default function Home() {
                   </div>
 
                   <div className="col-lg-6">
-                  <div className='d-flex justify-content-center'>
-                     <button className="btn btn-primary custom-btn1 enable-form" type="button">
-                        Book Consultation 
-                     </button></div>
+                     <div className='d-flex justify-content-center'>
+                        <button className="btn btn-primary custom-btn1 enable-form" type="button">
+                           Book Consultation
+                        </button></div>
                      <div class="booking-form" id="bookingform">
                         <div className="contact-section-form px-15 mt-2 rpx-0 rmb-50 wow fadeInLeft delay-0-2s animated animateleft boxDesign margin-0 px-18">
                            <div className="section-title mb-20">
@@ -430,25 +428,25 @@ export default function Home() {
                </div>
                <div className="row align-items-center">
                   <div className="col-sm-12">
-                     
+
                      <Slider {...logos}>
                         <div className="logoc wow fadeInUp delay-0-2s w-200">
-                           <img src="/assets/img/logo/hml/DABUR.png" alt='DABUR'/>
+                           <img src="/assets/img/logo/hml/DABUR.png" alt='DABUR' />
                         </div>
                         <div className="logoc wow fadeInUp delay-0-2s w-200">
-                           <img src="/assets/img/logo/hml/ITC.png" alt='ITC'/>
+                           <img src="/assets/img/logo/hml/ITC.png" alt='ITC' />
                         </div>
                         <div className="logoc wow fadeInUp delay-0-2s w-200">
-                           <img src="/assets/img/logo/hml/LAKME.png" alt='LAKME'/>
+                           <img src="/assets/img/logo/hml/LAKME.png" alt='LAKME' />
                         </div>
                         <div className="logoc wow fadeInUp delay-0-2s w-200">
-                           <img src="/assets/img/logo/hml/PAYTM.png" alt='PAYTM'/>
+                           <img src="/assets/img/logo/hml/PAYTM.png" alt='PAYTM' />
                         </div>
                         <div className="logoc wow fadeInUp delay-0-2s w-200">
-                           <img src="/assets/img/logo/hml/SWIGGY.png" alt='SWIGGY'/>
+                           <img src="/assets/img/logo/hml/SWIGGY.png" alt='SWIGGY' />
                         </div>
                         <div className="logoc wow fadeInUp delay-0-2s w-200">
-                           <img src="/assets/img/logo/hml/ZOMATO.png" alt='ZOMATO'/>
+                           <img src="/assets/img/logo/hml/ZOMATO.png" alt='ZOMATO' />
                         </div>
                      </Slider>
                      <br></br>
@@ -467,7 +465,7 @@ export default function Home() {
                      </div>
                   </div>
                   <div className="col-lg-6">
-                  <div className="about-content wow fadeInRight delay-0-2s animated animateright">
+                     <div className="about-content wow fadeInRight delay-0-2s animated animateright">
                         <div className="section-title">
                            {/* <h2 className="mainh1"><span>We Help</span> You Run Your Business Efficiently</h2> */}
                            <h2 className="mainh1"><span> Best General Staffing</span> Solution for Organizations in India</h2>
@@ -475,34 +473,34 @@ export default function Home() {
                         </div>
 
                         <div class="ellipsis-container">
-                        <p class="text-justify elllipse-text mb-1">
-                            Yoma Business Solutions stands out as the top general staffing company in India. They offer an unbeatable
-                            service when it comes to hiring temporary employees. Whether you're a big corporation or a small business,
-                            Yoma has got your back.
-                        </p>
-                    </div>
-                    
-                    <div class="ellipsis-container">
-                        <p class="text-justify elllipse-text mb-1">
-                            What makes Yoma so great? Well, first, they have a vast pool of skilled workers ready to fill your temporary
-                            positions. Need someone for a few weeks or months? Yoma's got you covered. They handle all the nitty-gritty
-                            paperwork, making it easy for you to focus on your core business.
-                        </p>
-                    </div>
-                    
-                    <div class="ellipsis-container">
-                        <p class="text-justify elllipse-text mb-1">
-                            Yoma also ensures that their general staff are well-trained and competent, ensuring a smooth transition into your company. Their cost-effective solutions save you money and time in the long run. Their customer service is top-notch. Yoma's friendly team is always there to assist you with your staffing needs and answer any questions you may have. They work closely with you to understand your unique requirements.
-                        </p>
-                    </div>
-                    
-                    <div class="ellipsis-container">
-                        <p class="text-justify elllipse-text mb-1">
-                            In a nutshell, if you're in India and need general staff, YOMA Business Solutions is your go-to choice. They make temporary staffing a breeze, so you can keep your business running smoothly.
-                        </p>
-                    </div>
-                    
-                    <span class="expand-button">Read More <i class="fas fa-arrow-right ml-1 font-13"></i></span>
+                           <p class="text-justify elllipse-text mb-1">
+                              Yoma Business Solutions stands out as the top general staffing company in India. They offer an unbeatable
+                              service when it comes to hiring temporary employees. Whether you're a big corporation or a small business,
+                              Yoma has got your back.
+                           </p>
+                        </div>
+
+                        <div class="ellipsis-container">
+                           <p class="text-justify elllipse-text mb-1">
+                              What makes Yoma so great? Well, first, they have a vast pool of skilled workers ready to fill your temporary
+                              positions. Need someone for a few weeks or months? Yoma's got you covered. They handle all the nitty-gritty
+                              paperwork, making it easy for you to focus on your core business.
+                           </p>
+                        </div>
+
+                        <div class="ellipsis-container">
+                           <p class="text-justify elllipse-text mb-1">
+                              Yoma also ensures that their general staff are well-trained and competent, ensuring a smooth transition into your company. Their cost-effective solutions save you money and time in the long run. Their customer service is top-notch. Yoma's friendly team is always there to assist you with your staffing needs and answer any questions you may have. They work closely with you to understand your unique requirements.
+                           </p>
+                        </div>
+
+                        <div class="ellipsis-container">
+                           <p class="text-justify elllipse-text mb-1">
+                              In a nutshell, if you're in India and need general staff, YOMA Business Solutions is your go-to choice. They make temporary staffing a breeze, so you can keep your business running smoothly.
+                           </p>
+                        </div>
+
+                        <span class="expand-button">Read More <i class="fas fa-arrow-right ml-1 font-13"></i></span>
                      </div>
 
 
@@ -513,10 +511,10 @@ export default function Home() {
          </section>
 
          <div className="section-title text-center mb-35">
-                        <h2 className="mainh1"><span>​​Onboarding</span>  to Exit We Manage the Entire Employee Lifecycle </h2>
-                     </div>
+            <h2 className="mainh1"><span>​​Onboarding</span>  to Exit We Manage the Entire Employee Lifecycle </h2>
+         </div>
 
-        <section className="services-section-two bg-blue pb-60 pt-50 pb-21">
+         <section className="services-section-two bg-blue pb-60 pt-50 pb-21">
             <div className="container">
                <div className="">
                   <div className="row justify-content-center slider-container">
@@ -677,7 +675,7 @@ export default function Home() {
                   <div className="col-xl-4 col-md-6">
                      <div className="feature-item wow fadeInUp delay-0-2s new-shadow">
                         <div className="icon">
-                           <img src="/assets/img/icon/general-staffing.png" alt='General Staffing'/>
+                           <img src="/assets/img/icon/general-staffing.png" alt='General Staffing' />
                         </div>
                         <div className="feature-content">
                            <h4>General Staffing</h4>
@@ -689,7 +687,7 @@ export default function Home() {
                   <div className="col-xl-4 col-md-6">
                      <div className="feature-item wow fadeInUp delay-0-4s new-shadow">
                         <div className="icon">
-                           <img src="/assets/img/icon/industrial-staffing.png" alt='Industrial Staffing'/>
+                           <img src="/assets/img/icon/industrial-staffing.png" alt='Industrial Staffing' />
                         </div>
                         <div className="feature-content">
                            <h4>Industrial Staffing</h4>
@@ -701,7 +699,7 @@ export default function Home() {
                   <div className="col-xl-4 col-md-6">
                      <div className="feature-item wow fadeInUp delay-0-6s new-shadow">
                         <div className="icon">
-                           <img src="/assets/img/icon/staff-augmentation.png" alt='Staff Augmentation'/>
+                           <img src="/assets/img/icon/staff-augmentation.png" alt='Staff Augmentation' />
                         </div>
                         <div className="feature-content">
                            <h4>Staff Augmentation</h4>
@@ -713,7 +711,7 @@ export default function Home() {
                   <div className="col-xl-4 col-md-6">
                      <div className="feature-item wow fadeInUp delay-0-8s new-shadow">
                         <div className="icon">
-                           <img src="/assets/img/icon/manage-services.png" alt='Managed Services'/>
+                           <img src="/assets/img/icon/manage-services.png" alt='Managed Services' />
                         </div>
                         <div className="feature-content">
                            <h4>Managed Services</h4>
@@ -725,7 +723,7 @@ export default function Home() {
                   <div className="col-xl-4 col-md-6">
                      <div className="feature-item wow fadeInUp delay-1-0s new-shadow">
                         <div className="icon">
-                           <img src="/assets/img/icon/shared-resource-program.png" alt='Shared Resource Program'/>
+                           <img src="/assets/img/icon/shared-resource-program.png" alt='Shared Resource Program' />
                         </div>
                         <div className="feature-content">
                            <h4>Shared Resource Program</h4>
@@ -737,7 +735,7 @@ export default function Home() {
                   <div className="col-xl-4 col-md-6">
                      <div className="feature-item wow fadeInUp delay-1-2s new-shadow">
                         <div className="icon">
-                           <img src="/assets/img/icon/apprenticeship-program.png" alt='Apprenticeship Program (NAPS)'/>
+                           <img src="/assets/img/icon/apprenticeship-program.png" alt='Apprenticeship Program (NAPS)' />
                         </div>
                         <div className="feature-content">
                            <h4>Apprenticeship Program (NAPS)</h4>
@@ -750,7 +748,7 @@ export default function Home() {
             </div>
          </section>
 
-         <section className="what-we-do bg-lighter pt-50 rpt-40 pb-40 rpb-30">   
+         <section className="what-we-do bg-lighter pt-50 rpt-40 pb-40 rpb-30">
             <div className="container">
                <div className="section-title text-center mb-35">
                   <h2 className="mainh1"><span> Why </span> Choose Us</h2>
@@ -839,7 +837,7 @@ export default function Home() {
                </div>
             </div>
          </section>
-       
+
          <section className="contact-four pt-70 rpt-50 pb-70 rpb-70">
             <div className="container">
                <div className="contact-inner-four box-shadow p-35 rpx-25 br-5 bg-white">
@@ -855,19 +853,19 @@ export default function Home() {
                                  <div className="col-sm-6">
                                     <div className="form-group">
                                        <label htmlFor="name">Your Name</label>
-                                       <input type="text" id="name" name="name" className="form-control" placeholder="Name*" required/>
+                                       <input type="text" id="name" name="name" className="form-control" placeholder="Name*" required />
                                     </div>
                                  </div>
                                  <div className="col-sm-6">
                                     <div className="form-group">
                                        <label htmlFor="email">Your email address</label>
-                                       <input type="email" id="email" name="email" className="form-control" placeholder="Work Email/Email*" required/>
+                                       <input type="email" id="email" name="email" className="form-control" placeholder="Work Email/Email*" required />
                                     </div>
                                  </div>
                                  <div className="col-sm-6">
                                     <div className="form-group">
                                        <label htmlFor="number">Phone No.</label>
-                                       <input type="number" id="number" name="number" className="form-control" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required/>
+                                       <input type="number" id="number" name="number" className="form-control" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required />
                                     </div>
                                  </div>
                                  <div className="col-sm-6">
