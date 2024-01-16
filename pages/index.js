@@ -114,10 +114,10 @@ export default function Home() {
    return (
       <>
          <Head>
-            <title>Best HR Outsourcing Company in India - YOMA Business Solution</title>
+            <title>Best Staffing Company in India | Recruitment Agency for Outsourcing HR Services             </title>
             <meta property="og:title" content="Best HR Outsourcing Company in India - YOMA Business Solution" />
             <meta name="keywords" content="hr outsourcing services, hr outsourcing company, best hr outsourcing company, best hr solutions company" />
-            <meta name="description" content="Yoma is the best HR outsourcing company in India that help organizations to grow in an easier way. We help you with staff management, Payroll, Compliance,  etc. Enquire now." />
+            <meta name="description" content="One of the Top Recruiting Agencies in India, Yoma is a Emploment Consultancy firm offers a comprehensive range of HR Outsourcing services." />
             <meta name="Classification" content="hr outsourcing services" />
             <meta property="og:locale" content="en_us" />
             <meta property="og:title" content="Best HR Outsourcing Company in India - Yoma Business Solution" />
