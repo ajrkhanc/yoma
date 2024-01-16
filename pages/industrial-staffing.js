@@ -168,7 +168,7 @@ export default function Home() {
     <>
       <Head>
         <title>
-          - Best Industrial Staffing Service Provider in India - YOMA
+        Industrial Staffing Solutions in India | Industrial Staffing Services
         </title>
         <meta
           property="og:title"
@@ -180,32 +180,35 @@ export default function Home() {
         />
         <meta
           name="description"
-          content="Looking for Industrial Staffing Services or people to work temporarily or permanently for industries like manufacturing, construction, etc. Contact us now."
+          content=" One of the best Industrial Staffing Agencies in India, Yoma understands the needs of your company and offers a complete staffing solutions tailored for industrial sectors.
+          "
         />
         <meta name="Classification" content="hr outsourcing services" />
+        <meta name="robots" content="INDEX, FOLLOW"/>
+
         <meta property="og:locale" content="en_us" />
         <meta
           property="og:title"
-          content="Best HR Outsourcing Company in India - Yoma Business Solution"
+          content="Best Industrial Staffing Service Provider in India - YOMA"
         />
         <meta
           property="og:site_name"
           content="Yoma Business Solutions Pvt. Ltd"
         />
-        <meta property="og:url" content="https://yomabusinesssolutions.com/" />
+        <meta property="og:url" content="https://yomabusinesssolutions.com/industrial-staffing" />
         <meta
           property="og:description"
-          content="Yoma is the best HR outsourcing company in India that help organizations to grow in an easier way. We help you with staff management, Payroll,   Compliance, etc. Enquire now."
+          content="Looking for Industrial Staffing Services or people to work temporarily or permanently for industries like manufacturing, construction, etc. Contact us now."
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
           content="https://yomabusinesssolutions.com/assets/img/logo/yoma-logo.png"
         />
-        <meta itemprop="Best HR Outsourcing Company in India - Yoma Business Solution" />
+        <meta itemprop="Best Industrial Staffing Service Provider in India - YOMA" />
         <meta
           itemprop="description"
-          content="Yoma is the best HR outsourcing company in India that help organizations to grow in an easier way. We help you with staff management, Payroll,   Compliance, etc. Enquire now."
+          content="Looking for Industrial Staffing Services or people to work temporarily or permanently for industries like manufacturing, construction, etc. Contact us now"
         />
         <meta
           itemprop="image"
@@ -213,14 +216,14 @@ export default function Home() {
         />
         <meta name="Classification" content="hr outsourcing services" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@yomabusinesssolutions" />
+        <meta name="twitter:site" content="@yomabusinesssolutions"/>
         <meta
           name="twitter:title"
-          content="Best HR Outsourcing Company in India - Yoma Business Solution"
+          content="Best Industrial Staffing Service Provider in India - YOMA/"
         />
         <meta
           name="twitter:description"
-          content="Yoma is the best HR outsourcing company in India that help organizations to grow in an easier way. We help you with staff management, Payroll,   Compliance, etc. Enquire now."
+          content=" Looking for Industrial Staffing Services or people to work temporarily or permanently for industries like manufacturing, construction, etc. Contact us now."
         />
         <meta
           name="twitter:image:src"
@@ -230,6 +233,8 @@ export default function Home() {
           name="twitter:domain"
           content="https://yomabusinesssolutions.com/"
         />
+        <link rel="canonical" href="https://yomabusinesssolutions.com/industrial-staffing" />
+
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -291,29 +296,20 @@ export default function Home() {
           }}
         />
 
-        <script
+        <script  type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `
-              {
-               "@context": "https://schema.org",
-               "@type": "WebSite",
-               "name": "Yoma Business Solutions Pvt. Ltd",
-               "alternateName": "Yoma Business Solutions",
-               "url": "https://yomamultinational.com//",
-               "potentialAction": [
-                   {
-                       "@type": "SearchAction",
-                       "target": "https://yomamultinational.com//{search_term_string}",
-                       "query-input": "required name=search_term_string"
-                   },
-                   {
-                       "@type": "SearchAction",
-                       "target": "https://yomamultinational.com/{search_term_string}",
-                       "query-input": "required name=search_term_string"
-                   }
-               ]
-           }
-           
+            {
+              "@context": "https://schema.org/",
+              "@type": "WebSite",
+              "name": "YOMA Business Solutions",
+              "url": "https://yomabusinesssolutions.com/",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://yomabusinesssolutions.com/industrial-staffing{search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
+            }
           `,
           }}
         />
@@ -342,31 +338,32 @@ export default function Home() {
           }}
         />
 
-        <script
+        <script  type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: `
-              {
-               "@context": "https://schema.org",
-               "@type": "Organization",
-               "name": "Yoma Business Solutions Pvt. Ltd",
-               "url": "https://yomamultinational.com/",
-               "logo": "https://yomamultinational.com/assets/img/logo/yoma-logo.png",
-               "contactPoint": [
-                   {
-                       "@type": "ContactPoint",
-                       "telephone": " +91-844-818 8503",
-                       "contactType": "customer service",
-                       "email": "yoma.info@byldgroup.com",
-                       "areaServed": [
-                           "IN"
-                       ],
-                       "availableLanguage": [
-                           "English"
-                       ]
-                   }
-               ]
-           }
-           
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "YOMA Business Solutions",
+              "alternateName": "YOMA",
+              "url": "https://yomabusinesssolutions.com/",
+              "logo": "https://yomabusinesssolutions.com/assets/img/logo/yoma-logo.png",
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "1800 102 1345",
+                "contactType": "customer service",
+                "contactOption": "TollFree",
+                "areaServed": "IN",
+                "availableLanguage": ["en","Hindi"]
+              },
+              "sameAs": [
+                "https://www.facebook.com/YOMABusinessSolutions",
+                "https://twitter.com/YomaSolutions",
+                "https://www.instagram.com/yoma.business",
+                "https://www.youtube.com/user/yomamultinational",
+                "https://www.linkedin.com/company/yomabusinesssolutions/"
+              ]
+            }
           `,
           }}
         />
