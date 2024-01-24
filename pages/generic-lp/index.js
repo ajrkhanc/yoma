@@ -171,7 +171,7 @@ export default function GenericLP(State) {
 
                                 <Tabs className="tbform">
                                     <div className="section-title">
-                                        <h2 className="mb-0 fmmmm">Looking for HR Services? Look no Further</h2>
+                                        <h2 className="mb-0 fmmmm">Looking for Staffing Solutions? Look no Further</h2>
 
                                     </div>
                                     {/* <TabList className="tabbtn">
@@ -205,13 +205,13 @@ export default function GenericLP(State) {
                                                 <div className="form-group col-sm-12">
                                                     <select name="interest_in" required>
                                                         <option value="">Interested In*</option>
-                                                        <option value="Interested in knowing more">Interested in knowing more</option>
                                                         <option value="Temporary staffing">Temporary staffing</option>
                                                         <option value="Industrial manpower">Industrial manpower</option>
                                                         <option value="Staff augmentation">Staff augmentation</option>
                                                         <option value="Managed services">Managed services</option>
                                                         <option value="Shared resource program">Shared resource program</option>
                                                         <option value="Apprenticeship program (NAPS)">Apprenticeship program (NAPS)</option>
+                                                        <option value="Interested in knowing more">Interested in knowing more</option>
                                                     </select>
                                                 </div>
 
