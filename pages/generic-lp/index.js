@@ -204,7 +204,7 @@ export default function GenericLP(State) {
 
                                                 <div className="form-group col-sm-12">
                                                     <select name="interest_in" required>
-                                                      {/* <option value="">Interested In*</option> */}
+                                                      <option value="">Interested In*</option> 
                                                         <option value="Temporary staffing">Temporary staffing</option>
                                                         <option value="Industrial manpower">Industrial manpower</option>
                                                         <option value="Staff augmentation">Staff augmentation</option>
