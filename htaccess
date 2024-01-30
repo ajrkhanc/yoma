@@ -4,6 +4,9 @@
 
     # Set HSTS Header
     Header set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+    #set secure reffer policy header
+    Header always set Referrer-Policy "no-referrer-when-downgrade"
+
 </IfModule>
 
 RewriteEngine on
