@@ -341,5 +341,10 @@ input:focus, button:focus, .form-control:focus {
     text-overflow: ellipsis;
 }
 
-
+@media (max-width: 360px) {
+    .about-content .section-title .mainh1 {
+        font-size: 29px;
+        line-height: 35px;
+    }
+}
 
