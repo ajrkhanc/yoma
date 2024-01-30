@@ -1,4 +1,8 @@
 <IfModule mod_headers.c>
+  # Set X-Content-Type-Options Header
+    Header set X-Content-Type-Options "nosniff"
+
+    # Set HSTS Header
     Header set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
 </IfModule>
 
