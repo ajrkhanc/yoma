@@ -4,7 +4,8 @@ module.exports = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
-    async headers() {
+  
+   async headers() {
     return [
       {
         source: '/(.*)',
@@ -18,16 +19,15 @@ module.exports = {
             key: 'Referrer-Policy',
             value: 'strict-origin-when-cross-origin',
           },
-           {
-            key: 'Strict-Transport-Security',
-            value: 'max-age=63072000; includeSubDomains; preload',
+          {
+            key: 'Content-Security-Policy',
+            value: "default-src * 'unsafe-inline' 'unsafe-eval' data: blob:"
           },
-           
         ],
       },
     ];
   },
-
+  
   redirects: async () => [
     
     {
