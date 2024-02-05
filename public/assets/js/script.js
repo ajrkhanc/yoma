@@ -30,6 +30,14 @@
     19. Preloader
     
 -----------------------------------------------------------------------------------*/
+$(document).ready(function() {
+    // Select all anchor tags and add rel="noopener"
+    $('a').attr({
+        'rel': 'noopener',
+        'target': '_blank'
+      });
+  });
+
 $(document).ready(function () {
     initializeSlickSlider(); // Call the function when the page loads
     //$(window).resize(initializeSlickSlider); // Call the function on window resize
