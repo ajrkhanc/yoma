@@ -677,7 +677,7 @@ export default function Home() {
                                                     <input type="text" name="leadsquared_JobTitle" id="leadsquared_JobTitle" className="form-control" placeholder="Designation*" pattern="[a-zA-Z -]*$" title="Only alphabets are allowed" required />
                                                 </div>
 
-                                                <div className="form-groupcol-sm-12">
+                                                <div className="form-group col-sm-12">
                                                     <input type="text" name="phone_number" id="phone_number" pattern="[0-9]*" maxlength="10" minlength="10" className="form-control" placeholder="Mobile No.*" required />
                                                 </div>
                                                 <div className="form-group col-sm-12">
