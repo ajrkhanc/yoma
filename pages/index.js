@@ -29,11 +29,14 @@ export default function Home() {
             }
          }
       };
-      xhttp.send("leadsquared-FirstName=" + event.target.name.value +
-         "&leadsquared-EmailAddress=" + event.target.email.value +
-         "&leadsquared-Mobile=" + event.target.number.value +
-         "&leadsquared-Notes=" + event.target.message.value +
-         "&leadsquared-mx_Business_Entity=" + event.target.leadsquared_mx_Business_Entity.value)
+         xhttp.send("leadsquared-FirstName=" + event.target.name.value +
+            "&leadsquared-EmailAddress=" + event.target.leadsquared_EmailAddress.value +
+            "&leadsquared-Mobile=" + event.target.phone_number.value +
+            "&leadsquared-JobTitle=" + event.target.leadsquared_JobTitle.value +
+            "&leadsquared-Company=" + event.target.leadsquared_Company.value +
+            "&interest_in=" + event.target.interest_in.value +
+            "&referredby=" + event.target.referredby.value +
+            "&leadsquared-mx_Business_Entity=" + event.target.leadsquared_mx_Business_Entity.value)
 
    }
 
@@ -656,50 +659,62 @@ export default function Home() {
                      <div className="col-lg-7">
                         <div className="contact-section-form px-15 rpx-0 rmb-50 wow fadeInLeft delay-0-2s animated animateleft">
                            <div className="section-title mb-20">
-                              <h3>Book Your Free HR Consultation</h3>
+                              <h3>Looking for Staffing Solutions? Look no Further</h3>
                            </div>
 
                            <form id="contactForm" className="contact-form" onSubmit={registerUser}>
-                              <div className="row">
-                                 <div className="col-sm-6">
-                                    <div className="form-group">
-                                       <label htmlFor="name">Your Name</label>
-                                       <input type="text" id="name" name="name" className="form-control" placeholder="Name*" required/>
-                                    </div>
-                                 </div>
-                                 <div className="col-sm-6">
-                                    <div className="form-group">
-                                       <label htmlFor="email">Your email address</label>
-                                       <input type="email" id="email" name="email" className="form-control" placeholder="Work Email/Email*" required/>
-                                    </div>
-                                 </div>
-                                 <div className="col-sm-6">
-                                    <div className="form-group">
-                                       <label htmlFor="number">Phone No.</label>
-                                       <input type="number" id="number" name="number" className="form-control" maxlength="10" minlength="10" pattern="[0-9]*" placeholder="Phone No.*" required/>
-                                    </div>
-                                 </div>
-                                 <div className="col-sm-6">
-                                    <div className="form-group">
-                                       <label htmlFor="number">Message</label>
-                                       <input type="text" id="message" name="message" className="form-control" placeholder="Message" />
-                                    </div>
-                                 </div>
-                                 <div className="col-sm-12">
-                                    <div className="form-group">
-                                       <label htmlFor="service">Business Entity*</label>
-                                       <select id="service" name="leadsquared_mx_Business_Entity">
-                                          <option value="YOMA Business Solutions" selected="">YOMA Business Solutions</option>
-                                       </select>
-                                    </div>
-                                 </div>
-                                 <div className="col-sm-12">
-                                    <input id="submitbuttonform" type="submit" className="theme-btn btnwidth" value="Send Message" />
-                                    <div className="clearfix"></div>
-                                    <p id="showlabel" style={{ display: "none" }}></p>
-                                 </div>
+                             <div className="row">
 
-                              </div>
+                                                <div className="form-group col-sm-6">
+                                                    <input type="text" id="name" name="name" className="form-control" placeholder="Name*" required />
+                                                </div>
+
+                                                <div className="form-group col-sm-6">
+                                                    <input type="text" name="leadsquared_Company" id="leadsquared_Company" className="form-control" placeholder="Company Name*" required />
+                                                </div>
+
+                                                <div className="form-group col-sm-12">
+                                                    <input type="text" name="leadsquared_JobTitle" id="leadsquared_JobTitle" className="form-control" placeholder="Designation*" pattern="[a-zA-Z -]*$" title="Only alphabets are allowed" required />
+                                                </div>
+
+                                                <div className="col-sm-12">
+                                                    <input type="text" name="phone_number" id="phone_number" pattern="[0-9]*" maxlength="10" minlength="10" className="form-control" placeholder="Mobile No.*" required />
+                                                </div>
+                                                <div className="form-group col-sm-12">
+                                                    <input type="email" name="leadsquared_EmailAddress" id="leadsquared_EmailAddress" className="form-control" placeholder="Work Email/Email*" required />
+                                                </div>
+
+                                                <div className="form-group col-sm-12">
+                                                    <select name="interest_in" required>
+                                                      <option value="">Interested In*</option> 
+                                                        <option value="Temporary staffing">Temporary staffing</option>
+                                                        <option value="Industrial manpower">Industrial manpower</option>
+                                                        <option value="Staff augmentation">Staff augmentation</option>
+                                                        <option value="Managed services">Managed services</option>
+                                                        <option value="Shared resource program">Shared resource program</option>
+                                                        <option value="Apprenticeship program (NAPS)">Apprenticeship program (NAPS)</option>
+                                                        <option value="Interested in knowing more">Interested in knowing more</option>
+                                                    </select>
+                                                </div>
+
+                                                <div className="form-group col-sm-12 d-none">
+                                                    <select name="referredby" required>
+                                                        <option value="Google Ads">Google Ads</option>                                                        
+                                                    </select>
+                                                </div>
+
+                                                <div className="form-group d-none col-sm-12">
+                                                    <input type="text" name="leadsquared_mx_Business_Entity" id="leadsquared_mx_Business_Entity" value="YOMA Business Solutions" className="form-control" required />
+                                                </div>
+
+                                                <div className="col-sm-12">
+                                                    <div className="form-group mb-0">
+                                                        <input id="submitbuttonform" type="submit" className="theme-btn btnwidthc" value="Submit" />
+                                                    </div>
+                                                    <div className="clearfix"></div>
+                                                    <p id="showlabel" style={{ display: "none" }}></p>
+                                                </div>
+                                            </div>
                            </form>
                         </div>
                      </div>
