@@ -52,8 +52,8 @@ module.exports = {
       permanent: true,
     },
       {
-      source: 'https://blog.yomabusinesssolutions.com/planning-your-human-resource-is-essential-for-effective-management/feed/',
-      destination: 'https://blog.yomabusinesssolutions.com/404',
+      source: '/blogs/planning-your-human-resource-is-essential-for-effective-management/feed/',
+      destination: 'https://blog.yomabusinesssolutions.com/404/',
       permanent: true,
     },
     {
