@@ -51,6 +51,11 @@ module.exports = {
       destination: 'https://blog.yomabusinesssolutions.com/re-engineering-the-recruitment-process/',
       permanent: true,
     },
+      {
+      source: 'https://blog.yomabusinesssolutions.com/planning-your-human-resource-is-essential-for-effective-management/feed/',
+      destination: 'https://blog.yomabusinesssolutions.com/404',
+      permanent: true,
+    },
     {
       source: '/blogs/staffing-solutions-play-a-vital-role-in-corporate-india',
       destination: 'https://blog.yomabusinesssolutions.com/staffing-solutions-play-a-vital-role-in-corporate-india',
