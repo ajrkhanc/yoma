@@ -27,8 +27,7 @@ export default function StaffAugmentation() {
                 <meta itemprop="description" content="Fulfill your short-term needs with long-term service. YOMA is one of the best staffing solutions services for staff augmentation."/>
                 <meta itemprop="image" content="https://yomabusinesssolutions.com/assets/img/logo/yoma-logo.png"/>
                 <meta name="robots" content="INDEX, FOLLOW" />
-                <link rel="canonical" href="https://yomabusinesssolutions.com/staff-augmentation" />
-
+        
                 <script  type="application/ld+json"
                 dangerouslySetInnerHTML={{
                   __html: `
