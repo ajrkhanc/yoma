@@ -170,7 +170,7 @@ export default function Home() {
             <meta name="twitter:description" content="YOMA business solutions is India’s best general staffing solution provider that handles the entire lifecycle of employees from onboarding to exit." />
             <meta name="twitter:image:src" content="https://yomabusinesssolutions.com/assets/img/logo/yoma-logo.png" />
             <meta name="twitter:domain" content="https://yomabusinesssolutions.com/" />
-      {*  <link rel="canonical" href="https://yomabusinesssolutions.com/general-staffing" /> *}
+             {/* <link rel="canonical" href="https://yomabusinesssolutions.com/general-staffing" /> */}
 
             <script
                dangerouslySetInnerHTML={{
