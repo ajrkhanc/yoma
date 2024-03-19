@@ -233,7 +233,7 @@ export default function Home() {
           name="twitter:domain"
           content="https://yomabusinesssolutions.com/"
         />
-        <link rel="canonical" href="https://yomabusinesssolutions.com/industrial-staffing" />
+           {/*<link rel="canonical" href="https://yomabusinesssolutions.com/industrial-staffing" /> */}
 
         <script
           dangerouslySetInnerHTML={{
