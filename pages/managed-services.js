@@ -25,7 +25,7 @@ export default function ManagedServices() {
                 <meta itemprop="description" content="YOMA is the best managed services provider for employee management that provides regular support and active resources to its clients and partners." />
                 <meta itemprop="image" content="https://yomabusinesssolutions.com/assets/img/logo/yoma-logo.png" />
                 <meta name="robots" content="INDEX, FOLLOW" />
-                <link rel="canonical" href="https://yomabusinesssolutions.com/managed-services" />
+               
                 <link rel="icon" href="/favicon.png" />
 
                 <script type="application/ld+json"
