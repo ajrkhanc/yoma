@@ -6,6 +6,7 @@ export default function AssociateCorner(){
         <>
         <Head>
         <title>ASSOCIATE CORNER - Yomamultinational</title>
+        <link rel="canonical" href="https://yomabusinesssolutions.com/associate-corner-jobopening"/>
         <meta name="description" content="1800 102 1345 yoma.info@byldgroup.com Home ABOUT US Who We Are Mission, Vision & Values Life at Yoma Solutions General Staffing Industrial Staffing Staff Augmentation Managed Services Shared Resource Program Apprenticeship Program (NAPS) Client Corner Client Testimonials Our Clientele Client Login Scrap Book Associate Corner Job Openings Get a Job Associate Login Become A Partner Careers … Continue reading"/>
         </Head>
 
