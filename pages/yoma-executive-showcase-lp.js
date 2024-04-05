@@ -9,7 +9,7 @@ export default function YomaExecutiveShowcase(){
         xhttp.onload = function () {
             console.log(this.responseText);
         }
-        xhttp.open("Post", 'https://ajrkhan.xyz/yomamultinational/wp-json/contact-form-7/v1/contact-forms/23/feedback');
+        xhttp.open("Post", 'https://byldgroup.in/yomamultinational/wp-json/contact-form-7/v1/contact-forms/23/feedback');
         xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
         xhttp.onreadystatechange = function () {
             if (xhttp.readyState == 4) {
